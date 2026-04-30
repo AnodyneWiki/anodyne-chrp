@@ -1,0 +1,1 @@
+gem "svg_optimizer"
