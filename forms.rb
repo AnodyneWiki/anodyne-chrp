@@ -7,17 +7,17 @@ SALTS = {
   "besylate" => { formula: "OS(=O)(=O)c1ccccc1", amine_count: 1, acid_count: 1, unii: "SRSXLGNVWSONIS" },
   "carbonate" => { formula: "C(=O)(O)O", amine_count: 1, acid_count: 1, unii: "" },
   "bicarbonate" => { formula: "C(=O)(O)O", amine_count: 1, acid_count: 2, unii: "BVKZGUZCCUSVTD" },
-  "arsenate" => { formula: "O[As](=O)(O)O", amine_count: 1, acid_count: 1, unii: "" },
-  "arsenate dihydrate" => { formula: "", amine_count: 1, acid_count: 1, unii: "" },
+  "arsenate" => { formula: "O[As](=O)(O)O", amine_count: 1, acid_count: 1, unii: "DJHGAFSJWGLOIV" },
+  #"arsenate dihydrate" => { formula: "", amine_count: 1, acid_count: 1, unii: "" },
   "nitrate" => { formula: "[N+](=O)(O)[O-]", amine_count: 1, acid_count: 1, unii: "GRYLNZFGIOXLOG" },
   "acetate" => { formula: "CC(O)=O", amine_count: 1, acid_count: 1, unii: "QTBSBXVTEAMEQO" },
   "hydrochloride" => { formula: "Cl", amine_count: 1, acid_count: 1, unii: "VEXZGXHMUGYJMC" },
-  "hydrochloride dihydrate" => { formula: "Cl.O.O", amine_count: 1, acid_count: 1, unii: "" },
+  #"hydrochloride dihydrate" => { formula: "Cl.O.O", amine_count: 1, acid_count: 1, unii: "" },
   "hydrocloride" => { formula: "Cl", amine_count: 1, acid_count: 1, unii: "" },
   "hydrobromide" => { formula: "Br", amine_count: 1, acid_count: 1, unii: "CPELXLSAUQHCOX" },
   "hydriodide" => { formula: "I", amine_count: 1, acid_count: 1, unii: "XMBWDFGMSWQBCA" },
   "phosphate" => { formula: "OP(=O)(O)O", amine_count: 1, acid_count: 1, unii: "NBIIXXVUZAFLBC" },
-  "phosphate dihydrate" => { formula: "OP(=O)(O)O.O.O", amine_count: 1, acid_count: 1, unii: "" },
+ # "phosphate dihydrate" => { formula: "OP(=O)(O)O.O.O", amine_count: 1, acid_count: 1, unii: "" },
   "tartrate" => { formula: "O=C(O)C(O)C(O)C(=O)O", amine_count: 1, acid_count: 1, unii: "FEWJPZIEWOKRBE" },
   "bitartrate" => { formula: "C(C(C(=O)[O-])O)(C(=O)O)O", amine_count: 1, acid_count: 2, unii: "FEWJPZIEWOKRBE" },
   "monohydrate" => { formula: "O", amine_count: 1, acid_count: 1, unii: "XLYOFNOQVPJJNP" },
@@ -35,7 +35,7 @@ SALTS = {
   "saccharate" => { formula: "[C@H]([C@@H]([C@H](C(=O)O)O)O)([C@@H](C(=O)O)O)O", amine_count: 1, acid_count: 1, unii: "DSLZVSRJTYRBFB" },
   "succinate" => { formula: "C(CC(=O)O)C(=O)O", amine_count: 1, acid_count: 1, unii: "KDYFGRWQOYBRFD" },
   "fumarate" => { formula: "C(=C/C(=O)O)\\C(=O)O", amine_count: 1, acid_count: 1, unii: "VZCYOOQTPOCHFL" },
-  "valerate" => { formula: "CCCCC(=O)O", amine_count: 1, acid_count: 1, unii: "" },
+  "valerate" => { formula: "CCCCC(=O)O", amine_count: 1, acid_count: 1, unii: "NQPDZGIKBAWPEJ" },
   "cypionate" => { formula: "CCCCC(=O)O", amine_count: 1, acid_count: 1, unii: "" },
   "enantate" => { formula: "CCCCC(=O)O", amine_count: 1, acid_count: 1, unii: "" },
   "undecylate" => { formula: "CCCCC(=O)O", amine_count: 1, acid_count: 1, unii: "" },
@@ -43,14 +43,14 @@ SALTS = {
   "oxalate" => { formula: "C(=O)(C(=O)O)O", amine_count: 1, acid_count: 1, unii: "" },
   "salicylate" => { formula: "O=C(O)c1ccccc1O", amine_count: 1, acid_count: 1, unii: "YGSDEFSMJLZEOE" },
   "hypophosphite" => { formula: "OP=O", amine_count: 1, acid_count: 1, unii: "GQZXNSPRSGFJLY" },
-  "hypophosphite dihydrate" => { formula: "", amine_count: 1, acid_count: 1, unii: "" },
+  #"hypophosphite dihydrate" => { formula: "", amine_count: 1, acid_count: 1, unii: "" },
   "sulfate" => { formula: "OS(=O)(=O)O", amine_count: 1, acid_count: 1, unii: "QAOWNCQODCNURD" },
   "sulphate" => { formula: "OS(=O)(=O)O", amine_count: 1, acid_count: 1, unii: "QAOWNCQODCNURD" },
   "laurylsulfate" => { formula: "CCCCCCCCCCCCOS(=O)(=O)O", amine_count: 1, acid_count: 1, unii: "" },
   "laurylsulphate" => { formula: "", amine_count: 1, acid_count: 1, unii: "" },
   "hemisulfate" => { formula: "OS(=O)(=O)O", amine_count: 2, acid_count: 1, unii: "QAOWNCQODCNURD" },
   "hemisulphate" => { formula: "OS(=O)(=O)O", amine_count: 2, acid_count: 1, unii: "" },
-  "hemihydrate" => { formula: "O", amine_count: 2, acid_count: 1, unii: "" },
+  "hemihydrate" => { formula: "O", amine_count: 2, acid_count: 1, unii: "XLYOFNOQVPJJNP" },
   "sulfate monohydrate" => { formula: "OS(=O)(=O)O.O", amine_count: 1, acid_count: 1, unii: "" },
   "sulphate monohydrate" => { formula: "OS(=O)(=O)O.O", amine_count: 1, acid_count: 1, unii: "" },
   "sulfate pentahydrate" => { formula: "OS(=O)(=O)O.O.O.O.O.O", amine_count: 1, acid_count: 1, unii: "" },
@@ -87,31 +87,46 @@ CHIRAL_PREFIXES = {
   "logical-racemic" => { prefered: "DL-", prefixes: [
     "DL-"
   ] },
-  "right-handed" => { prefered: "(+)-", prefixes: [
+  "right-handed" => { prefered: "(S)-", prefixes: [
     "(+)-",
     "(S)-",
     "Dextro",
-    "Dex",
+    #"Dex",
     "d-"
-    #"d-",
   ] },
-  "left-handed" => { prefered: "(-)-", prefixes: [
+  "left-handed" => { prefered: "(R)-", prefixes: [
     "(-)-",
     "(R)-",
     "Levo",
-    "Lev",
+    #"Lev",
     "l-"
     #"l-"
   ] },
-  "racemic" => { prefered: "(RS)-", prefixes: [
+  "racemic" => { prefered: "", prefixes: [
     "(RS)-",
     "dl-",
+    "DL-",
     "(+/-)-",
-    "(+-)-"
-    #"(±)-",
+    "(+-)-",
     #"rac-",
   ] }
   #"D-", "L-",
   #"D-(+)-",
   #"D-(-)-",
 }
+
+def count_prefix(n)
+  prefixes = {
+    1 => "",
+    2 => "di",
+    3 => "tri",
+    4 => "tetra",
+    5 => "penta",
+    6 => "hexa",
+    7 => "hepta",
+    8 => "octa",
+    9 => "nona",
+    10 => "deca"
+  }
+  prefixes[n] || ""
+end

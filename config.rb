@@ -3,5 +3,3 @@ $options = {
 }
 $compounds = []
 $to_index = []
-$compound = nil
-$title = nil
