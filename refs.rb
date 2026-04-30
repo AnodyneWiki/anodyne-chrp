@@ -4,7 +4,7 @@ REFS = [
   { name: "Wikitionary", url: "https://www.wikitionary.org/wiki/", key: "Wikitionary", icon: "https://www.wiktionary.org/static/favicon/piece.ico", clean: false },
   { name: "EffectIndex", url: "https://www.effectindex.com/", key: "EffectIndex", icon: "https://www.effectindex.com/_nuxt/icons/icon_64x64.722c40.png", clean: true },
   { name: "EffectIndexAnodyne", url: "/effect/", key: "EffectIndexAnodyne", icon: "https://www.effectindex.com/_nuxt/icons/icon_64x64.722c40.png", clean: true },
-  { name: "DrugBank", url: "https://go.drugbank.com/drugs/", key: "DrugBank ID", icon: "https://go.drugbank.com/favicons/favicon.ico", clean: true },
+  { name: "DrugBank", url: "https://go.drugbank.com/", key: "DrugBank ID", icon: "https://go.drugbank.com/favicons/favicon.ico", clean: true },
   { name: "Erowid", url: "https://www.erowid.org", key: "Erowid", icon: "https://erowid.org/favicon.ico", clean: true },
   { name: "OpenErowid", url: "https://erowid.io", key: "Erowid", icon: "https://sernyl.io/logo-notext-lm.png", clean: true },
   { name: "PubChem", url: "https://pubchem.ncbi.nlm.nih.gov/compound/", key: "PubChemId", icon: "https://pubchem.ncbi.nlm.nih.gov/pcfe/favicon/favicon.ico", clean: false },
@@ -21,6 +21,7 @@ REFS = [
   { name: "EPA DSSTox", url: "https://comptox.epa.gov/dashboard/chemical/details/", key: "DSSTox Substance ID", icon: "https://comptox.epa.gov/dashboard/epa_logo.png", clean: true },
   { name: "Github", url: "https://github.com/", icon: "https://github.githubassets.com/favicons/favicon-dark.png", clean: false },
   { name: "Reddit", url: "https://www.reddit.com/", icon: "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png", clean: false },
+  { name: "dbi-igs", url: "https://dbi-igs.org/", icon: "https://dbi-igs.org/favicon.ico", clean: true },
   #{ name: "ECHA Chem", url: "https://chem.echa.europa.eu/100.005.543", key: "UNII", clean: true },
 ]
 
@@ -36,5 +37,5 @@ def generate_references(record)
       end
     end
   end
-  return references
+  return references.dup
 end
