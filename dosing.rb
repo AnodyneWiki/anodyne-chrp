@@ -8,7 +8,7 @@ def query_dosing(prev_record)
   end
   return record
 
-  title = replace_symbols($title)
+  title = replace_symbols(record["Title"])
   url = SHARVARA + title
   json_content = fetch(url, "application/json")
   json_props = JSON.parse(json_content)
