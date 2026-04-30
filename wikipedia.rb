@@ -2,6 +2,7 @@ require 'cgi'
 require 'date'
 
 require_relative 'text'
+require_relative 'fetch'
 
 WIKIPEDIA_URL = 'https://en.wikipedia.org/w/index.php?action=raw&title='
 
@@ -72,7 +73,7 @@ def extract_cite_templates(text)
 end
 
 def format_date(raw_date)
-  return nil unless raw_date
+  return nil if raw_date == nil
   begin
     date = Date.parse(raw_date)
     date.strftime('%B %-d, %Y')
@@ -82,7 +83,7 @@ def format_date(raw_date)
 end
 
 def parse_wikimedia_cite(template)
-  return nil unless template.start_with?("{{cite") && template.end_with?("}}")
+  return nil unless template.start_with?("{-{cite") && template.end_with?("}-}")
   content = template[7..-3]
   parts = content.split('|')
   type = parts.shift.strip
@@ -192,16 +193,16 @@ def clean_wikitext(text)
 end
 
 def extract_infobox(wikitext)
-  start_index = wikitext.index("{{Drugbox")
+  start_index = wikitext.index("{-{Drugbox")
   return nil unless start_index
   
-  i = start_index + "{{Drugbox".length
+  i = start_index + "{-{Drugbox".length
   brace_count = 2
   while i < wikitext.length && brace_count > 0
-    if wikitext[i, 2] == '{{'
+    if wikitext[i, 2] == '{-{'
       brace_count += 2
       i += 2
-    elsif wikitext[i, 2] == '}}'
+    elsif wikitext[i, 2] == '}-}'
       brace_count -= 2
       i += 2
     else
@@ -253,7 +254,7 @@ def format_schedule(input, char)
 end
 
 def extract_scheduling(record, data)
-  return nil unless data
+  return nil if data == nil
   scheduling = []
 
   data.each do |key, value|
@@ -306,7 +307,7 @@ def extract_scheduling(record, data)
         "ref" => []
       }
       cvalue = value + comment + status
-      cvalue.scan(/\{\{cite.*?\}\}/m) do |match|
+      cvalue.scan(/\{-\{cite.*?\}-\}/m) do |match|
         data = parse_wikimedia_cite(match)
         citation = format_ama_citation(record, data)
         if !citation || citation.size == 0
@@ -345,37 +346,38 @@ def extract_scheduling(record, data)
   return scheduling
 end
 
-def query_wikipedia(prev_record)
-  if prev_record == nil
-    record = {}
-  else
-    record = prev_record
-  end
-  t_compound = $title
-  if record["Wikipedia"] != nil
-    t_compound = record["Wikipedia"]
-  end
+def extract_section(wikitext, section)
+  return wikitext[/^== #{section} ==\n(.*?)(?=^== )/m]
+end
+
+def query_wikipedia(record)
+  #return record
+
+  t_compound = record["Wikipedia"] if record["Wikipedia"] != nil
+  t_compound = record["Title"] if t_compound == nil
+  return record if t_compound == nil
 
   url = WIKIPEDIA_URL + encode_symbols(t_compound.gsub(" ", "_"))
 
   wikitext = fetch(url, "text/xwiki")
-  if wikitext == nil
-    return record
-  end
+  puts "check" if wikitext == nil
+  return record if wikitext == nil
 
   if wikitext =~ /^#REDIRECT\s*\[\[(.+?)\]\]/i
     target = $1.strip
     url = WIKIPEDIA_URL + encode_symbols(target.gsub(" ", "_"))
     wikitext = fetch(url, "text/xwiki")
-    if record["Wikipedia"] == nil
-      record["Wikipedia"] = target
-    end
+    return record if wikitext == nil
+
+    record["Wikipedia"] = target if record["Wikipedia"] == nil
   else
-    if record["Wikipedia"] == nil
-      record["Wikipedia"] = t_compound
-    end
+    record["Wikipedia"] = t_compound if record["Wikipedia"] == nil
   end
-  
+
+  puts "begin"
+  puts extract_section(wikitext, "Pharmacology")
+  puts "end"
+
   wikitext.gsub!("{{Infobox drug", "{{Drugbox")
   wikitext.gsub!("{{bulleted list", "{{ubl")
   wikitext.gsub!("{{Bulleted list", "{{ubl")
@@ -386,6 +388,7 @@ def query_wikipedia(prev_record)
   wikitext.gsub!("{{Citation needed}}", "")
   wikitext.gsub!("{{nbsp}}", " ")
   wikitext.gsub!("{{nbsp}}", " ")
+  wikitext.gsub!("{{cascite|correct|??}}", "")
   wikitext.gsub!("<\/ref>", "")
   wikitext.gsub!(/<ref[^>]*>/m, "")
   wikitext.gsub!(/<ref *\/>/m, "")
@@ -398,6 +401,8 @@ def query_wikipedia(prev_record)
   wikitext.gsub!(/\r\n?/, "\n")
   wikitext.gsub!("[[", "")
   wikitext.gsub!("]]", "")
+  wikitext.gsub!(/\{\{citation needed\|.+?\}\}/m, "")
+  wikitext.gsub!(/\{\{Citation needed\|.+?\}\}/m, "")
   wikitext.gsub!(/\{\{ubl.+?\}\}/m, "")
   wikitext.gsub!(/\{\{Better source needed.*?\}\}/i, '')
   wikitext.gsub!(/\{\{Additional citation needed.*?\}\}/i, '')
@@ -427,22 +432,24 @@ def query_wikipedia(prev_record)
     unit += "s" unless unit.end_with?("s") || start == finish
     "#{start}–#{finish} #{unit}"
   end
+  wikitext.gsub!("{{", "{-{")
+  wikitext.gsub!("}}", "}-}")
   infobox = extract_infobox(wikitext)
   if infobox == nil
     return record
   end
   indata = parse_infobox(record, infobox)
-  if indata == nil
-    return record
-  end
+  return record if indata == nil
+
+  #puts JSON.pretty_generate(indata)
+
   sched = extract_scheduling(record, indata)
-  if sched != nil
-    record["Scheduling"] = sched
-  end
+  record["Scheduling"] = sched if sched != nil
+
   indata.each do |ki, vi|
     next unless DRUGBOX_MAP[ki] != nil
     vd = vi.dup
-    matches = vd.scan(/\{\{cite.*?\}\}/m)
+    matches = vd.scan(/\{-\{cite.*?\}-\}/m)
     puts "#{matches.length}\n"
     matches.each do |match|
       rdata = parse_wikimedia_cite(match)
@@ -466,6 +473,7 @@ def query_wikipedia(prev_record)
     record["EliminationHalfLife"].gsub!(" to ", " - ")
     record["EliminationHalfLife"].gsub!(/(\d+(?:\.\d+)?)[\-\u2013\u2014](\d+(?:\.\d+)?)/, '\1 – \2')
     record["EliminationHalfLife"].gsub!("Up - ", "")
+    record["EliminationHalfLife"].gsub!("{{cascite|correct|??}}", "")
   end
   if record["DurationOfAction"]
     record["DurationOfAction"].gsub!("hrs", "hours")
@@ -473,5 +481,6 @@ def query_wikipedia(prev_record)
     record["DurationOfAction"].gsub!(/(\d+(?:\.\d+)?)[\-\u2013\u2014](\d+(?:\.\d+)?)/, '\1 – \2')
     record["DurationOfAction"].gsub!("Up - ", "")
   end
+
   return record
 end
