@@ -12,11 +12,11 @@ def fetch(url, accept, static = nil)
   end
 
   if $options[:c].nil?
-    response = HTTParty.get(url.gsub(" ", "%20"), headers: { "accept" => accept} )
+    response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept} )
     if response.code != 200
       return nil
     end
-    return response
+    return response.body
   end
 
   cff = $options[:c] + "/" + Digest::MD5.hexdigest(static != nil ? static : url)
@@ -27,11 +27,13 @@ def fetch(url, accept, static = nil)
     return File.read(cff)
   end
 
-  response = HTTParty.get(url.gsub(" ", "%20"), headers: { "accept" => accept} )
+  response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept} )
 
   if response.code != 200
     return nil
   end
+
+  puts response.headers['x-throttling-control']
 
   File.write(cff, response.body)
   return response.body
