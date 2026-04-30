@@ -3,7 +3,7 @@ def contains_symbols(input)
 end
 
 def encode_symbols(input)
-  return input.gsub("α", "%CE%B1").gsub("Α", "%CE%B1").gsub("β", "%CE%B2").gsub("Β", "%CE%B2").gsub("Γ", "%CE%B3").gsub("γ", "%CE%B3").gsub("Δ", "%CE%94").gsub("δ", "%CE%B4")
+  return input.gsub("α", "%CE%B1").gsub("Α", "%CE%B1").gsub("β", "%CE%B2").gsub("Β", "%CE%B2").gsub("Γ", "%CE%B3").gsub("γ", "%CE%B3").gsub("Δ", "%CE%94").gsub("δ", "%CE%B4").gsub("(", "%28").gsub(")", "%29").gsub("'", "%27")
 end
 
 def replace_symbols(input)
