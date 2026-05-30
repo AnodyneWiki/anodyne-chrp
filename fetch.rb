@@ -6,13 +6,13 @@ require "erb"
 
 require_relative 'config'
 
-def fetch(url, accept, static = nil)
+def fetch(url, accept, static = nil, cookies = nil)
   if $options[:v]
     puts "Fetch: " + url
   end
 
   if $options[:c].nil?
-    response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept} )
+    response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept}, cookies: cookies)
     if response.code != 200
       return nil
     end
