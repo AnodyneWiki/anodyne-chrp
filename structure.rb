@@ -4,7 +4,7 @@ require_relative 'config'
 require_relative 'forms'
 
 def generate_structure(record, mpca, subst)
-  mpc = "java -cp molpic/target/molpic-1.0-SNAPSHOT.jar net.coderobe.molpic.Cli " + mpca
+  mpc = "java -jar molpic/molpic.jar " + mpca
   title = record["Title"]
   title = record["SaltTitle"] if record["SaltTitle"] != nil
   return record if title == nil
@@ -27,10 +27,10 @@ def generate_structure(record, mpca, subst)
         end
         atoms = " |Sg:n:#{atoms}:#{record["SaltAmineCount"]}:ht|"
       end
-      mpc += " \"#{smiles}#{atoms}\" -a \"#{record["SaltFormula"]}\" -z \"#{record["SaltAcidCount"]}\"" #-u #{record[\"SaltAmineCount\"]}"
+      mpc += " -m \"#{smiles}#{atoms}\" -s \"#{record["SaltFormula"]}\" -ac \"#{record["SaltAcidCount"]}\"" #-u #{record[\"SaltAmineCount\"]}"
     end
   else
-    mpc += " \"#{record["SMILES"]}\""
+    mpc += " -m \"#{record["SMILES"]}\""
   end
 
   cffj = nil
@@ -38,7 +38,7 @@ def generate_structure(record, mpca, subst)
     cff = $options[:c] + "/" + Digest::MD5.hexdigest(mpc) + ".svg"
     if subst
       cffj = $options[:c] + "/" + Digest::MD5.hexdigest(mpc) + ".json"
-      mpc += " -j \"#{cffj}\""
+      mpc += " -d \"#{cffj}\""
     end
     if File.exist?(cff) && File.size(cff) > 0 && ((Time.now - File.mtime(cff)) / (24 * 60 * 60)) < 1.0 #&& (scffc)
       if $options[:v]
@@ -52,8 +52,8 @@ def generate_structure(record, mpca, subst)
             record['ChemicalClasses'] = json_data['ChemicalClasses']
           end
         else
-          only_subst = true
-          mpc += " -s"
+          #only_subst = true
+          #mpc += " -s"
         end
       end
     end
@@ -62,7 +62,7 @@ def generate_structure(record, mpca, subst)
     mpc += " -o \"structure/#{title.downcase.gsub(/\s+/, '_')}.svg\""
     if subst
       cffj = "/tmp/molpic_" + Digest::MD5.hexdigest(mpc) + ".json"
-      mpc += " -j \"#{cffj}\""
+      mpc += " -d \"#{cffj}\""
     end
     #mpc += " -j \"#{vars_file}\""
   end
@@ -80,11 +80,11 @@ def generate_structure(record, mpca, subst)
   end
   if subst && json_file != nil
     json_data = JSON.parse(json_file)
-    if json_data['ChemicalClasses'] != nil
+    if json_data['classes'] != nil
       if record['ChemicalClasses'] == nil
         record['ChemicalClasses'] = []
       end
-      record['ChemicalClasses'] += json_data['ChemicalClasses']
+      record['ChemicalClasses'] += json_data['classes']
     end
   end
   #puts svg_file
