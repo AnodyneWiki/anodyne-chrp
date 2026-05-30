@@ -22,6 +22,7 @@ def query_unii(root, prev_record, moieties, aminemoiety, acidmoiety)
     record = prev_record
   end
   return record if record["UNII"] == nil
+  #return record
   salt = {}
 
   url = UNII_API + record["UNII"] + UNII_API_END
@@ -50,6 +51,8 @@ def query_unii(root, prev_record, moieties, aminemoiety, acidmoiety)
           salt["Name"] = salt["Name"].delete_suffix(", dl-").strip
           salt["Name"] = salt["Name"].delete_suffix(", l-").strip
           salt["Name"] = salt["Name"].delete_suffix(", d-").strip
+          salt["Name"].gsub!("hydrocloride", "hydrochloride")
+          salt["Name"].gsub!(" anhydrous", "")
           salt["RName"] = salt["Name"]
           #next if root["Salts"].include?(salt["Name"])
           puts "Salt name: #{salt["Name"]}"
@@ -70,7 +73,7 @@ def query_unii(root, prev_record, moieties, aminemoiety, acidmoiety)
             salt["AcidCount"] = tmp_record["AcidMoietyCount"] if tmp_record["AcidMoietyCount"] != nil
             if 1 < salt["AcidCount"]
               salt["Name"] = "#{count_prefix(salt['AcidCount'])}#{salt['Name'].downcase}"
-            elsif 1 == salt["AcidCount"] and 2 == salt["AmineCount"]
+            elsif 1 == salt["AcidCount"] and 2 == salt["AmineCount"] and not salt["Name"].start_with?("hemi")
               salt["Name"] = "hemi#{salt['Name'].downcase}"
             end
             salt["Amine"] = "#{root['Title']}"
