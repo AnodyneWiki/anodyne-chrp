@@ -4,7 +4,7 @@ $reddit_data = nil
 
 def query_reddit(record)
   if $reddit_data.nil?
-    file_path = 'reddit_test.json'
+    file_path = File.join(File.dirname(__FILE__), 'reddit_test.json')
     if File.exist?(file_path)
       puts "Loading #{file_path} into memory..."
       begin
