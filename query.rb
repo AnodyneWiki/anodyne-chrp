@@ -15,6 +15,7 @@ require_relative 'sql'
 require_relative 'chemspider'
 require_relative 'dosing'
 require_relative 'erowid'
+require_relative 'reddit'
 require_relative 'unii'
 require_relative 'hmdb'
 require_relative 'pubchem'
@@ -69,6 +70,7 @@ def try(root, compound, prefixes, postfix, unii, key, indepth, salt)
     record.merge!(query_dosing record)
     #record.merge!(query_kegg record)
     record.merge!(query_mesh record)
+    record.merge!(query_reddit record)
     #record.merge!(query_experiences record)
     record.merge!(query_dbi_igs record)
   end
