@@ -3,12 +3,13 @@ require 'json'
 require 'optparse'
 
 require_relative 'fetch'
+require_relative 'text'
 
 def fetch_ddi_kegg_interactions(id)
   interactions = []
   url = "https://rest.kegg.jp/ddi/#{id}"; puts url
   #ddi_req = HTTParty.get(url)
-  ddi_req = fetch(url, "application/json")
+  ddi_req = fetch(encode_symbols(url), "application/json")
 
   if ddi_req == nil
     puts "failed to fetch interactions"
@@ -95,7 +96,8 @@ def query_kegg(record)
       next if parts == nil
       next if parts.empty?
       next if parts.length > 3
-      next if parts.length < 2
+      #next if parts.length < 2
+      next if parts.length < 3
       synonyms = parts[2].split("; ")
       synonyms.map! { _1.strip.sub(/\s*\(.*\)\z/, '') }
       next if synonyms.empty?

@@ -26,6 +26,7 @@ require_relative 'stereoisomers'
 require_relative 'sitemap'
 require_relative 'dbi-igs'
 require_relative 'kegg'
+require_relative 'protestkit'
 require_relative 'mesh'
 
 PHARM = [
@@ -66,12 +67,13 @@ def try(root, compound, prefixes, postfix, unii, key, indepth, salt)
 
     record.merge!(query_hmdb record) if record["HMDB ID"] != nil
     record.merge!(query_wikipedia record)
-    record.merge!(query_sciencemadness record)
+    #record.merge!(query_sciencemadness record)
     record.merge!(query_dosing record)
     #record.merge!(query_kegg record)
     record.merge!(query_mesh record)
     record.merge!(query_reddit record)
-    #record.merge!(query_experiences record)
+    record.merge!(query_experiences record)
+    record.merge!(query_protestkit record)
     record.merge!(query_dbi_igs record)
   end
 

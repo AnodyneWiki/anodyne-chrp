@@ -9,18 +9,19 @@ def dump_to_db(db, record)
     abrs = record["SAliases"]
     record.delete("SAliases")
   end
-  abrs.push(record["Abbreviation"]) if record["Abbreviation"] != nil and not record["Abbreviation"].empty?
-  abrs.push(record["Formating"]) if record["Formating"]
-  abrs.push(record["Aliases"]) if record["Aliases"]
-  abrs.push(record["FullSalts"]) if record["FullSalts"]
-  abrs.push(record["StereoisomersUNII"]) if record["StereoisomersUNII"]
-  abrs.push(record["SaltsUNII"]) if record["SaltsUNII"]
-  abrs.push(record["Stereoisomers"]) if record["Stereoisomers"]
-  abrs.push(record["Slang"]) if record["Slang"]
+  #abrs.push(record["Abbreviation"]) if record["Abbreviation"] != nil and not record["Abbreviation"].empty?
+  abrs += record["Abbreviation"] if record["Abbreviation"] != nil and not record["Abbreviation"].empty?
+  #abrs.push(record["Formating"]) if record["Formating"]
+  abrs += record["Aliases"] if record["Aliases"] != nil
+  abrs += record["FullSalts"] if record["FullSalts"] != nil
+  #abrs.push(record["StereoisomersUNII"]) if record["StereoisomersUNII"]
+  #abrs.push(record["SaltsUNII"]) if record["SaltsUNII"]
+  #abrs.push(record["Stereoisomers"]) if record["Stereoisomers"]
+  abrs += record["Slang"] if record["Slang"]
   abrs.push(record["MolecularFormula"].gsub("<sub>", "").gsub("</sub>", "")) if record["MolecularFormula"] != nil
   if record["StereoTitles"] != nil
     for stereotitle in record["StereoTitles"]
-      abrs.push(stereotitle["Title"])
+      #abrs.push(stereotitle["Title"])
     end
   end
   appn = [ record["UNII"], record["StereoisomerRacemic"], record["SMILES"], "CID#{record["PubChemId"]}", record["InChI"], record["InChIKey"], record["IUPACName"], record["CAS"], record["Wikidata"], record["European.Community.(EC).Number"], record["HMDB.ID"], record["ChEMBL"], record["ChEBI"], record["EINECS"] ]
@@ -32,6 +33,7 @@ def dump_to_db(db, record)
     abrs << str if str != nil
   end
   abrs = abrs.compact.uniq
+  puts JSON.pretty_generate(abrs)
   record.delete("HMDB Metabolite")
   puts "INSERT INTO substances (#{record["Title"]})"
   db.execute("INSERT OR REPLACE INTO substances (title, aliases, data_json) VALUES (?, ?, ?)",

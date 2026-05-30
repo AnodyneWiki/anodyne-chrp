@@ -7,6 +7,7 @@ REFS = [
   { name: "DrugBank", url: "https://go.drugbank.com/", key: "DrugBank ID", icon: "https://go.drugbank.com/favicons/favicon.ico", clean: true },
   { name: "Erowid", url: "https://www.erowid.org", key: "Erowid", icon: "https://erowid.org/favicon.ico", clean: true },
   { name: "OpenErowid", url: "https://erowid.io", key: "Erowid", icon: "https://sernyl.io/logo-notext-lm.png", clean: true },
+  { name: "DrugsPRO", url: "https://protestkit.eu", key: "DrugsPRO", icon: "https://protestkit.eu/drugspro/drugspro_logo.ico", clean: true },
   { name: "PubChem", url: "https://pubchem.ncbi.nlm.nih.gov/compound/", key: "PubChemId", icon: "https://pubchem.ncbi.nlm.nih.gov/pcfe/favicon/favicon.ico", clean: false },
   { name: "Sciencemadness", url: "https://www.sciencemadness.org/smwiki/index.php/", key: "ScienceMadness", icon: "https://www.sciencemadness.org/favicon.ico", clean: false },
   { name: "ChemSpider", url: "https://www.chemspider.com/Chemical-Structure.", end: ".html", key: "chemspiderId", icon: "https://www.rsc-cdn.org/oxygen/assets/favicons/favicon-32x32.png", clean: true },
