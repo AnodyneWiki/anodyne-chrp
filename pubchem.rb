@@ -201,9 +201,9 @@ def fetch_synonyms(record)
   return [] if json_fetch == nil
   json_syms = JSON.parse(json_fetch)
   synonyms = json_syms["InformationList"]["Information"][0]["Synonym"]
-  filtSynonyms = [ record["Title"] ]
+  filtSynonyms = [ record["PubChemTitle"] ]
   filtSynonyms += synonyms
-  unwanted_synonyms = [ record["Title"].upcase, record["Title"].downcase, "#{record["Title"].capitalize()}, DL-", record["CAS"], record["InChIKey"].capitalize(), record["IUPACName"], record["DSSTox Substance ID"], record["Wikidata"], record["Abbreviation"] ] # record["ChemicalClasses"][0]
+  unwanted_synonyms = [ record["Title"], record["Title"].upcase, record["PubChemTitle"].upcase, record["Title"].downcase, "#{record["Title"].capitalize()}, DL-", record["CAS"], record["InChIKey"].capitalize(), record["IUPACName"], record["DSSTox Substance ID"], record["Wikidata"], record["Abbreviation"] ] # record["ChemicalClasses"][0]
   unwanted_synonyms += [ record["UNII"] ] if record["UNII"] != nil
   strip_prefixes = [ "U.S.P." ]
   for chir in CHIRAL_PREFIXES
@@ -251,6 +251,18 @@ def fetch_synonyms(record)
     record["RefChem"] = refchemSyms[0].delete_prefix("RefChem:")
     filtSynonyms = filtSynonyms.reject { |str| str.start_with?("RefChem:") }
   end
+
+  dtxsidSyms = filtSynonyms.select { |str| str.start_with?("DTXSID") }
+  if dtxsidSyms.length != 0
+    record["DTXSID"] = dtxsidSyms[0].delete_prefix("DTXSID")
+    filtSynonyms = filtSynonyms.reject { |str| str.start_with?("DTXSID") }
+  end
+
+  uniiSyms = filtSynonyms.select { |str| str.start_with?("UNII-") }
+  if uniiSyms.length != 0
+    #record[""] = refchemSyms[0].delete_prefix("DTXSID")
+    filtSynonyms = filtSynonyms.reject { |str| str.start_with?("UNII-") }
+  end
     
   pdSyms = filtSynonyms.select { |str| str.match?(/\APD(?!SP)/) }
   if pdSyms.length != 0
@@ -278,11 +290,12 @@ def fetch_synonyms(record)
   filtSynonyms = filtSynonyms.map { |str| str.rstrip }
   filtSynonyms = filtSynonyms.map { |str| str.gsub(/\s\[[^\]]+\]$/, '') }
   filtSynonyms = filtSynonyms.map { |str| str.gsub(/\s\([^\)]+\)$/, '') }
-  if filtSynonyms[0] != nil and filtSynonyms[0] != record["Title"]
-    record["Title"] = filtSynonyms[0]
-  end
+  #if filtSynonyms[0] != nil and filtSynonyms[0] != record["Title"]
+  #  record["Title"] = filtSynonyms[0]
+  #end
   filtSynonyms = filtSynonyms.uniq
-  filtSynonyms = filtSynonyms - unwanted_synonyms
+  filtSynonyms = filtSynonyms.reject { |sym| unwanted_synonyms.include?(sym) }
+  #filtSynonyms = filtSynonyms - unwanted_synonyms
 
   # [Street Name] (Street Name)
   # [PMID: 2999404]
@@ -336,7 +349,11 @@ def query_pubchem(record, compound, stereoisomer)
 
   properties = json_props["PropertyTable"]["Properties"][0]
   for prop in REST_PROPS
-    record[prop] = properties[prop]
+    if prop == "Title"
+      record["PubChemTitle"] = properties[prop]
+    else
+      record[prop] = properties[prop]
+    end
   end
   record["PubChemId"] = properties["CID"]
   record["Title"] = compound if record["Title"] == nil
@@ -517,6 +534,10 @@ def query_pubchem(record, compound, stereoisomer)
 
   if record["Drug Classes"] != nil and record["Drug Classes"].include?("; ")
     record["Drug Classes"] = record["Drug Classes"].split("; ")
+  end
+
+  if record["ATC Code"] != nil
+    record["ATC Code"] = record["ATC Code"].sort
   end
 
   now = Time.now
