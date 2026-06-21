@@ -1,0 +1,1526 @@
+Substance Index (1524 entries)
+
+1,2-Diphenylethylamine
+1,3-Butanediol (1,3-BDO)
+1,3-Dimethylbutylamine (1,3-DMBA)
+1,4-Butanediol (1,4-BDO)
+1-(1,2-dimethylcyclobutanecarbonyl)-6-allyl-6-norlysergic acid diethylamide (AL-LAD, ALLAD)
+1-(2-Benzhydryloxyethyl)-4-(3-phenylpropyl)piperazine (GBR-12935)
+1-(3-(Trimethylsilyl)propionyl)-lysergic acid diethylamide (1S-LSD)
+1-(3-Chlorophenyl)-4-(2-phenylethyl)piperazine (3C-PEP)
+1-(Ferrocenecarbonyl)-lysergic acid diethylamide (1Fe-LSD)
+1-Aminoindane (1-AI)
+1-Aminomethyl-5-methoxyindane
+1-Aminotetralin (1-AT)
+1-Benzylpiperazine (BZP, 1-BZP)
+1-Butanoyl-d-lysergic acid diethylamide (1B-LSD)
+1-Cyclohexyl-4-(1,2-diphenylethyl)piperazine (MT-45)
+1-Cyclopropionyl-6-allyl-6-nor-lysergic acid diethylamide (1cP-AL-LAD)
+1-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPP )
+1-Methyl-4-phenylpyridinium (MPTP)
+1-Naphthylaminopropane (1-NAP)
+1-Naphthylmethcathinone (AMAPN)
+1-Pentyl-3-(1-naphthoyl)indole (JWH-018)
+1-Propanoyl-lysergic acid diethylamide (1P-LSD)
+1-Propargyltheobromine (DMPX)
+1-Valeryl-D-lysergic acid diethylamide (1V-LSD, Valerie)
+10-Hydroxyhexahydrocannabinol (10-OH-HHC)
+11β-Chloromethylestradiol
+16α-Lactone-estradiol (16α-LE2)
+17β-Dihydroequilin
+18-Methoxycoronaridine (18-MC)
+2',5'-Dimethoxy-4'-bromo-fentanyl (N-(2C-B)-Fentanyl)
+2,3'-Bipyridine
+2,3,4,5-Tetramethoxyamphetamine (2,3,4,6-TeMPEA)
+2,3,4,6-Tetramethoxyphenethylamine (2,3,4,6-TeMPEA)
+2,3,5,6-Tetramethoxyphenethylamine (2,3,4,5-TeMPEA)
+2,3,7,8-Tetrachlorodibenzodioxin (TCDD)
+2,3-Dimethylphenylpiperazine (2,3-DMPP)
+2,3-Methylenedioxyamphetamine (2,3-MDA)
+2,3-Methylenedioxymethamphetamine (2,3-MDMA)
+2,4,5-Trichlorophenoxyacetic acid (2,4,5-T)
+2,4,5-Triethoxyamphetamine (EEE)
+2,4,5-Trimethoxyamphetamine (TMA-2)
+2,4,5-Trimethoxyphenethylamine (2C-O)
+2,4-Dichloroamphetamine (3,4-DCA)
+2,4-Dichlorophenoxyacetic acid (2,4-D)
+2,4-Dinitrophenol (DNP)
+2,5-Dimethoxy-3,4-dimethylphenethylamine (2C-G)
+2,5-Dimethoxy-4-(2-fluoroethyl)amphetamine (DOEF)
+2,5-Dimethoxy-4-acetylamphetamine (DOAc)
+2,5-Dimethoxy-4-amylamphetamine (DOAM)
+2,5-Dimethoxy-4-bromo-N-(2-fluorobenzyl)phenethylamine (25B-NBF)
+2,5-Dimethoxy-4-bromo-N-(2-hydroxybenzyl)phenethylamine (25B-NBOH)
+2,5-Dimethoxy-4-bromo-N-(2-methoxybenzyl)phenethylamine (25B-NBOMe)
+2,5-Dimethoxy-4-bromo-N-(3-methoxybenzyl)phenethylamine (25B-NB3OMe)
+2,5-Dimethoxy-4-bromo-N-benzylphenethylamine (25B-NB)
+2,5-Dimethoxy-4-bromo-α-ethylphenethylamine (4C-B)
+2,5-Dimethoxy-4-bromoamphetamine (DOB)
+2,5-Dimethoxy-4-bromophenethylamine (2C-B)
+2,5-Dimethoxy-4-bromophenylpiperazine (2C-B-PP)
+2,5-Dimethoxy-4-butylamphetamine (DOBU)
+2,5-Dimethoxy-4-chloro-N-(2-fluorobenzyl)phenethylamine (25C-NBF)
+2,5-Dimethoxy-4-chloro-N-(2-hydroxybenzyl)phenethylamine (25C-NBOH)
+2,5-Dimethoxy-4-chloro-N-(2-methoxybenzyl)phenethylamine (25C-NBOMe)
+2,5-Dimethoxy-4-chloro-N-(3-methoxybenzyl)phenethylamine (25C-NB3OMe)
+2,5-Dimethoxy-4-chloro-N-(4-methoxybenzyl)phenethylamine (25C-NB4OMe)
+2,5-Dimethoxy-4-chloro-N-benzylphenethylamine (25C-NB)
+2,5-Dimethoxy-4-chloroamphetamine (DOC)
+2,5-Dimethoxy-4-chlorophenethylamine (2C-C)
+2,5-Dimethoxy-4-ethoxyamphetamine (MEM)
+2,5-Dimethoxy-4-ethyl-N-(2-fluorobenzyl)phenethylamine (25E-NBF)
+2,5-Dimethoxy-4-ethyl-N-(2-hydroxybenzyl)phenethylamine (25E-NBOH)
+2,5-Dimethoxy-4-ethyl-N-(2-methoxybenzyl)phenethylamine (25E-NBOMe)
+2,5-Dimethoxy-4-ethylamphetamine (DOET)
+2,5-Dimethoxy-4-ethylphenethylamine (2C-E)
+2,5-Dimethoxy-4-ethylthio-N-(2-methoxybenzyl)phenethylamine (25T2-NBOMe)
+2,5-Dimethoxy-4-ethylthio-α-ethylphenethylamine (4C-T-2)
+2,5-Dimethoxy-4-ethylthioamphetamine (Aleph-2)
+2,5-Dimethoxy-4-ethylthiophenethylamine (2C-T-2)
+2,5-Dimethoxy-4-fluoroamphetamine (DOF)
+2,5-Dimethoxy-4-fluorophenethylamine (2C-F)
+2,5-Dimethoxy-4-iodo-N-(2-fluorobenzyl)phenethylamine (25I-NBF)
+2,5-Dimethoxy-4-iodo-N-(2-hydroxybenzyl)phenethylamine (25I-NBOH)
+2,5-Dimethoxy-4-iodo-N-(2-methoxybenzyl)phenethylamine (25I-NBOMe)
+2,5-Dimethoxy-4-iodo-N-(3-methoxybenzyl)phenethylamine (25I-NB3OMe)
+2,5-Dimethoxy-4-iodo-N-(4-methoxybenzyl)phenethylamine (25I-NB4OMe)
+2,5-Dimethoxy-4-iodo-N-benzylphenethylamine (25I-NB)
+2,5-Dimethoxy-4-iodoamphetamine (DOI)
+2,5-Dimethoxy-4-iodophenethylamine (2C-I)
+2,5-Dimethoxy-4-isopropylamphetamine (DOIP)
+2,5-Dimethoxy-4-isopropylthio-N-(2-hydroxybenzyl)phenethylamine (25T4-NBOH)
+2,5-Dimethoxy-4-isopropylthio-N-(2-methoxybenzyl)phenethylamine (25T4-NBOMe)
+2,5-Dimethoxy-4-isopropylthioamphetamine (Aleph-4)
+2,5-Dimethoxy-4-methyl-N-(2-fluorobenzyl)phenethylamine (25D-NBF)
+2,5-Dimethoxy-4-methyl-N-(2-hydroxybenzyl)phenethylamine (25D-NBOH)
+2,5-Dimethoxy-4-methyl-N-(2-methoxybenzyl)phenethylamine (25D-NBOMe)
+2,5-Dimethoxy-4-methyl-α-ethylphenethylamine (4C-D)
+2,5-Dimethoxy-4-methylamphetamine (DOM)
+2,5-Dimethoxy-4-methylmethamphetamine (Beatrice, N-methyl-DOM, MDO-D, MDOM)
+2,5-Dimethoxy-4-methylphenethylamine (2C-D)
+2,5-Dimethoxy-4-methylphenylcyclopropylamine (DMCPA)
+2,5-Dimethoxy-4-methylselenophenethylamine (2C-Se)
+2,5-Dimethoxy-4-methylsulfonylamphetamine (DOMS)
+2,5-Dimethoxy-4-methylthioamphetamine (Aleph-1)
+2,5-Dimethoxy-4-methylthiophenethylamine (2C-T)
+2,5-Dimethoxy-4-nitro-N-(2-methoxybenzyl)phenethylamine (25N-NBOMe)
+2,5-Dimethoxy-4-nitroamphetamine (DON)
+2,5-Dimethoxy-4-nitrophenethylamine (2C-N)
+2,5-Dimethoxy-4-phenylthioamphetamine (Aleph-6)
+2,5-Dimethoxy-4-propyl-N-(2-fluorobenzyl)phenethylamine (25P-NBF)
+2,5-Dimethoxy-4-propyl-N-(2-hydroxybenzyl)phenethylamine (25P-NBOH)
+2,5-Dimethoxy-4-propyl-N-(2-methoxybenzyl)phenethylamine (25P-NBOMe)
+2,5-Dimethoxy-4-propylamphetamine (DOPR)
+2,5-Dimethoxy-4-propylphenethylamine (2C-P)
+2,5-Dimethoxy-4-propylthio-N-(2-hydroxybenzyl)phenethylamine (25T7-NBOH)
+2,5-Dimethoxy-4-propylthio-N-(2-methoxybenzyl)phenethylamine (25T7-NBOMe)
+2,5-Dimethoxy-4-propylthioamphetamine (Aleph-7)
+2,5-Dimethoxy-4-trifluoromethylamphetamine (DOTFM)
+2,5-Dimethoxy-4-trifluoromethylphenethylamine (2C-TFM)
+2,5-Dimethoxy-N-(2-fluorobenzyl)phenethylamine (25H-NBF)
+2,5-Dimethoxy-N-(2-hydroxybenzyl)phenethylamine (25H-NBOH)
+2,5-Dimethoxy-N-(2-methoxybenzyl)phenethylamine (25H-NBOMe)
+2,5-Dimethoxy-N-(3-methoxybenzyl)phenethylamine (25H-NB3OMe)
+2,5-Dimethoxy-N-(4-methoxybenzyl)phenethylamine (25H-NB4OMe)
+2,5-Dimethoxy-N-benzylphenethylamine (25H-NB)
+2,5-Dimethoxyamphetamine (2,5-DMA)
+2,5-Dimethoxyphenethylamine (2C-H)
+2,5-dimethoxy-4-bromobenzylpiperazine (2C-B-BZP)
+2-(4-Bromo-2,5-dimethoxyphenyl)morpholine (2C-B-morpholine)
+2-Amino-1,2-dihydronaphthalene (2-ADN)
+2-Amino-4,5-diphenyloxazole
+2-Aminoindane (2-AI)
+2-Aminotetralin (2-AT)
+2-Benzhydryl-1-methyl-piperidin-3-ol
+2-Benzhydrylpyrrolidine
+2-Benzoylpiperidine (2-BZOPD)
+2-Benzyl-1-ethylaminebenzimidazole
+2-Benzylpiperazine (2-BZP)
+2-Benzylpiperidine (2-BZPD)
+2-Benzylpyrrolidine
+2-Bromolysergic acid diethylamide (2-Br-LSD)
+2-Ethylmethcathinone (2-EMC)
+2-Fluoro-N-ethylnordeschloroketamine (2F-NENDCK, 2-FXE)
+2-Fluoromethamphetamine (2-FMA)
+2-Fluoromethcathinone (2-FMC)
+2-Fluorophenmetrazine (2-FPM, 2F-Phenmetrazine)
+2-Furylethylamine
+2-Furylethylamine (2-FEA)
+2-Methoxyamphetamine (OMA)
+2-Methyl-2-butanol (2M2B)
+2-Methylcathinone (2-MC)
+2-Methylphenylpiperazine (oMPP)
+2-Methylthiophene (2-Thiotoluene)
+2-Naphthylamine
+2-Naphthylaminopropane (NAP)
+2-Naphthylmethcathinone (BMAPN)
+2-Octylcyanoacrylate (Dermabond)
+2-Phenyl-3,5-dimethylmorpholine (3,5-DMPM)
+2-Phenyl-3,6-dimethylmorpholine (3,6-DMPM)
+2-Phenyl-5,5-dimethylmorpholine (G-130)
+2-Phenylmorpholine (PAL-632)
+2-Phenylphenol
+2-Pyrrolylethylamine (2-NEA)
+2-Tetrahydrofurylethylamine (2-THFEA)
+2-β-Carbomethoxy-3-β-(4-fluorophenyl)tropane (WIN-35428)
+2C-B-FLY (2C-B-FLY)
+2C-G-5 (2C-G-5)
+2β-Carboisopropoxy-3β-(4-iodophenyl)tropane (RTI-121)
+2β-Carbomethoxy-3β-(3-methyl-4-chlorophenyl)tropane (RTI-112)
+2β-Propanoyl-3β-(2-naphthyl)-tropane (WF-23)
+2β-Propanoyl-3β-(2-naphthyl)-tropane (WF-23)
+3',4'-Dichloro-α-pyrrolidinopentiophenone (3,4-DCPV, DCPVP, O-2390)
+3',4'-Dimethoxy-α-pyrrolidinopentiophenone (DMPV, 3,4-DMPV, DMPVP, O-2512)
+3',4'-Ethylene-α-pyrrolidinopentiophenone
+3',4'-Methylenedioxy-α-methylfentanyl (N-(MDA)-Fentanyl)
+3',4'-Methylenedioxy-α-pyrrolidinobutiophenone (MDPBP)
+3',4'-Methylenedioxy-α-pyrrolidinoheptaphenone (MDPEP)
+3',4'-Methylenedioxy-α-pyrrolidinohexiophenone (MDPHP)
+3',4'-Methylenedioxy-α-pyrrolidinoisohexanophenone (MDPiHP)
+3',4'-Methylenedioxy-α-pyrrolidinopentiophenone (MDPV, MDPK)
+3',4'-Methylenedioxy-α-pyrrolidinopropiophenone (MDPPP)
+3',4'-Methylenedioxyaminorex (MDAR)
+3',4'-Tetramethylene-α-pyrrolidinovalerophenone (TH-PVP, THPV)
+3',4'-Trimethylene-α-piperidinopentiophenone (3,4-Pr-PIPVP)
+3'-Methyl-4'-Fluoro-α-Pyrrolidinovalerophenone (MFPVP)
+3'-Methyl-α-pyrrolidinopentiophenone (3-Me-PVP, 3-Me-α-PVP, O-2480)
+3,3-Dimethylrolicyclidine (3,3-DMe-PCPy)
+3,3-Diphenylcyclobutanamine
+3,4,5-Trimethoxyamphetamine (TMA, TMA-1, 3,4,5-TMA)
+3,4,5-Trimethoxymethamphetamine (Methyl-TMA, N-methyl-TMA, TMMA)
+3,4,5-Trimethoxytranylcypromine (TMT, MCPA)
+3,4-Dichloroamphetamine (3,4-DCA)
+3,4-Dichloroamphetamine (3,4-DCA)
+3,4-Dichloromethylphenidate (3,4-DCMP)
+3,4-Dihydroxymethcathinone (HHMC)
+3,4-Dihydroxyphenylacetaldehyde (DOPAL)
+3,4-Dihydroxyphenylalanine (DOPA, L-DOPA)
+3,4-Dimethoxyamphetamine (3,4-DMA)
+3,4-Dimethoxyphenethylamine (DMPEA)
+3,4-Dimethylmethcathinone (3,4-DMMC)
+3,4-Ethylenedioxyamphetamine (EDA)
+3,4-Ethylenedioxycathinone (EDC)
+3,4-Ethylenedioxymethamphetamine (EDMA)
+3,4-Ethylenedioxymethcathinone (EDMC)
+3,4-Ethylenemethcathinone
+3,4-Ethylidenedioxyamphetamine (EIDA)
+3,4-Isopropylidenedioxyamphetamine (IDA)
+3,4-Methylenedioxy-3-methylaminobutane (Homo-MDMA)
+3,4-Methylenedioxy-N-methyl-α-ethylphenylethylamine (MBDB)
+3,4-Methylenedioxy-N-propargylamphetamine (MDPL)
+3,4-Methylenedioxy-α,N-dimethylbenzylamine (MDM1EA)
+3,4-Methylenedioxy-α,N-dimethylbenzylamine (MDM1EA)
+3,4-Methylenedioxy-α,N-dipropylphenethylamine (MPAP)
+3,4-Methylenedioxy-α-ethyl-N-methylbenzylamine (M-ALPHA)
+3,4-Methylenedioxy-α-ethylbenzylamine (ALPHA)
+3,4-Methylenedioxyamphetamine (MDA)
+3,4-Methylenedioxybenzylpiperazine (MDBZP)
+3,4-Methylenedioxycathinone (MDC)
+3,4-Methylenedioxydimethylamphetamine (MDDM, MDDMA)
+3,4-Methylenedioxyethamphetamine (MDEA)
+3,4-Methylenedioxymephenidine (UWA-001)
+3,4-Methylenedioxymephentermine (MDMP)
+3,4-Methylenedioxymethamphetamine (MDMA)
+3,4-Methylenedioxyphenethylamine (MDPEA)
+3,4-Methylenedioxyphenmetrazine (MDPM, 3-MDPM)
+3,4-Methylenedioxyphentermine (MDPH)
+3,4-Methylenedioxyphenylaminobutane (Homo-MDA)
+3,4-Methylenedioxyrolicyclidine (MDPCPy)
+3,4-Methylenedioxytrimethylamphetamine (MDTMA)
+3,5-Dimethoxy-4-allyloxyamphetamine (3C-AL, 3C-allylescaline)
+3,5-Dimethoxy-4-ethoxyphenethylamine (3C-E)
+3,5-Dimethoxy-4-trideuteromethoxyphenethylamine (4-D)
+3,5-Dimethoxyphenethylamine (3,5-DMPEA, DMPEA-6)
+3-(1-adamantyl)-1-(aminomethyl)-3,4-dihydro-1H-isochromene-5,6-diol (A-77636)
+3-(4-{2-[Bis(4-fluorophenyl)methoxy]ethyl}-1-piperazinyl)-1-phenylpropyl decanoate (DBL-583)
+3-Aminopyridine (3-AP)
+3-Benzhydrylmorpholine
+3-Benzylmorpholine (3-BZMo, 3-BZM)
+3-Bromomethylphenidate (3-Br-MPH)
+3-Chloro-4-fluororolicyclidine (3-Cl-4-F-PCPy)
+3-Chloromethylphenidate (3-Cl-MPH)
+3-Chlorophencyclidine (3-Cl-PCP)
+3-Chlorophenmetrazine (3-CPM)
+3-Chlorophenylpiperazine (3-CPP)
+3-Deschlorobupropion
+3-Ethylmethcathinone (3-EMC)
+3-Fluoroamphetamine (3-FA)
+3-Fluorodeschloroketamine (3-FDCK)
+3-Fluoroethamphetamine (3-FEA)
+3-Fluorophencyclidine (3-F-PCP)
+3-Fluorophenmetrazine (3-FPM, 3F-Phenmetrazine, PAL-593)
+3-Fluororolicyclidine (3-F-PCPy)
+3-Hydroxy-N,N-dimethylphenethylamine
+3-Hydroxyamphetamine (3-HA)
+3-Hydroxybenzylpiperazine
+3-Hydroxyphenazepam
+3-Hydroxyphencyclidine (3-HO-PCP)
+3-Iodophenmetrazine (3-IPM, 3I-Phenmetrazine)
+3-Methoxy-4-methylamphetamine (MMA)
+3-Methoxyeticyclidine (3-MeO-PCE)
+3-Methoxyphencyclidine (3-MeO-PCP)
+3-Methoxyphenmetrazine (3-MeO-PM)
+3-Methoxyphenylcyclohexylmorpholine (3-MeO-PCMo)
+3-Methoxyrolicyclidine (3-MeO-PCPy)
+3-Methoxytyramine (3-MT)
+3-Methylamphetamine (3-MA)
+3-Methylbenzylpiperazine (3-MBZP)
+3-Methylcathinone (3-MC)
+3-Methylethcathinone (3-MEC)
+3-Methylmethylphenidate (3-Me-MPH)
+3-Methylphencyclidine (3-Me-PCP)
+3-Methylphenmetrazine (3-MPM)
+3-Methylthiophene (3-Thiotoluene)
+3-Monoacetylmorphine (3-MAM)
+3-Pyridylnicotinamide (3-PNA)
+3-[4-[2-[(4-Fluorophenyl)-phenylmethoxy]ethyl]piperazin-1-yl]propanoic acid (S-350)
+4'-Chlorodeschloroalprazolam
+4'-Chlorodiazepam (Ro5-4864)
+4'-Fluoro-4-methylaminorex (4-FPO)
+4'-Fluoro-α-piperidinopentiophenone (4-FPIPVP)
+4'-Fluoro-α-pyrrolidinopentiophenone (FPVP, O-2370)
+4'-Fluoroaminorex (4'-FAR)
+4'-Methoxy-α-pyrrolidinopentiophenone (4-MeO-α-PVP, MOPVP, O-2417)
+4'-Methoxy-α-pyrrolidinopropiophenone (4-MeO-α-PPP, MOPPP)
+4,4'-Dimethylaminorex (4,4'-DMAR)
+4,5-Dihydroxytryptamine (4,5-DHT)
+4-(2-aminopropyl)benzofuran (4-APB)
+4-Aminopyridine (4-AP)
+4-Chlorobutylcathinone (4-CBC)
+4-Chlorophenylpiperazine (4-CPP)
+4-Ethylaminorex (4-EAR)
+4-Ethylmethcathinone (4-EMC)
+4-Fluoroamphetamine (4-FA)
+4-Fluorocathinone (4-FC)
+4-Fluoroephedrine (4-FEP)
+4-Fluoroethylphenidate (4-FEPH)
+4-Fluoromethamphetamine (4-FMA)
+4-Fluoromethylphenidate (4-FMPH)
+4-Fluorophenmetrazine (4-FPM, 4F-Phenmetrazine, PAL-748)
+4-Fluorophenylpiperazine (4-FPP)
+4-Fluororolicyclidine (4-F-PCPy)
+4-Fluoroselegiline
+4-Hydroxy-5-methoxytryptamine (4-HO-5-MeO-T)
+4-Hydroxy-α-methyltryptamine (4-HO-αMT)
+4-Hydroxyamphetamine (4-HA)
+4-Hydroxybenzylpiperazine
+4-Hydroxytryptamine (4-HO-T)
+4-Methoxyphenylpiperazine (pMeOPP)
+4-Methoxyrolicyclidine (4-MeO-PCPy)
+4-Methyl-α-methyltryptamine (4-Me-αMT)
+4-Methylaminorex (4-MAR)
+4-Methylamphetamine (4-MA, 4MA)
+4-Methylbenzylpiperazine (4-MBZP)
+4-Methylbuphedrone (4-MeMABP)
+4-Methylethcathinone (4-MEC)
+4-Methylmethylphenidate (4-MMPH)
+4-Methylpentedrone (4-MPD)
+4-Methylphendimetrazine
+4-Methylphenmetrazine (4-MPM)
+4-Methylphenylpiperazine (4-MPP)
+4-Methylpregabalin
+4-Methylthioamphetamine (4-MTA)
+4-Nitrophenylpiperazine (pNPP)
+4-Propionoyloxy-N,N-dimethyltryptamine (4-PrO-DMT)
+4-Propionyloxy-N-methyl-N-ethyltryptamine (4-PrO-MET)
+4-Pyridylnicotinamide (4-PNA)
+5,6-Benzofuranyl-2-aminoindane (BFAI)
+5,6-Dihydroxytryptamine (5,6-DHT)
+5,6-Methylenedioxy-2-aminoindane (MDAI)
+5,6-Methylenedioxy-N-methyl-2-aminoindane (MDMAI)
+5,6-Methylenedioxydimethyltryptamine (5,6-MDDMT)
+5,7-Dihydroxytryptamine (5,7-DHT)
+5-(2-aminopropyl)benzofuran (5-APB)
+5-(N-methyl-2-aminopropyl)benzofuran (5-MAPB)
+5-(Trifluoromethoxy)-N,N-dimethyltryptamine (5-TFMO-DMT)
+5-(Trifluoromethyl)-N,N-dimethyltryptamine (5-TFM-DMT)
+5-APBD (5-APBD)
+5-Bromo-N,N-dimethyltryptamine (5-Bromo-DMT)
+5-Chloro-N,N-dimethyltryptamine (5-Chloro-DMT)
+5-Chloro-α-ethyltryptamine (5-Chloro-αET)
+5-Chloro-α-methyltryptamine (5-Chloro-αMT)
+5-Chloro-β-keto-methiopropamine
+5-Dihydrobenzofuranpyrovalerone (5-DBFPV)
+5-Ethoxy-α-methyltryptamine (5-EtO-αMT)
+5-Fluoro-N,N-diethyltryptamine (5-Fluoro-DET)
+5-Fluoro-N,N-dimethyltryptamine (5-Fluoro-DMT)
+5-Fluoro-N-ethyl-N-propyltryptamine (5-Fluoro-EPT)
+5-Fluoro-tryptamine (5-Fluoro-T)
+5-Fluoro-α-ethyltryptamine (5-Fluoro-αET)
+5-Fluoro-α-methyltryptamine (5-Fluoro-αMT)
+5-Hydroxy-N,N-diethyltryptamine (5-HO-DET)
+5-Iodo-2-aminoindane (5-IAI)
+5-Methoxy-2-aminoindane (MEAI, 5-MeO-AI)
+5-Methoxy-3,4-Methylenedioxyamphetamine (5-MeO-MDA)
+5-Methoxy-3,4-Methylenedioxymethamphetamine (5-MeO-MDMA)
+5-Methoxy-7-fluoro-N-methyl-N-ethyltryptamine (5-MeO-7-F-MET)
+5-Methoxy-N,N-diallyltryptamine (5-MeO-DALT)
+5-Methoxy-N,N-diisopropyltryptamine (5-MeO-DiPT)
+5-Methoxy-N-ethyl-N-isopropyltryptamine (5-MeO-EiPT)
+5-Methoxy-N-methyl-N-allyltryptamine (5-MeO-MALT)
+5-Methoxy-N-methyl-N-isopropyltryptamine (5-MeO-MiPT)
+5-Methoxy-α-methyltryptamine (5-MeO-αMT)
+5-Methylethylone (5-Me-MDEC)
+5-Nitro-N,N-dimethyltryptamine (5-Nitro-DMT)
+5-Trifluoromethyl-2-aminoindane (TAI)
+5-hydroxy-N,N-diisopropyltryptamine (5-HO-DiPT)
+6,7-Methylenedioxy-2-aminotetralin (MDAT)
+6-(2-Aminopropyl)benzofuran (6-APB)
+6-APBD (6-APBD)
+6-Allyl-6-norlysergic acid diethylamide (AL-LAD, ALLAD)
+6-Amino-6,7,8,9-tetrahydro-5H-benzocycloheptene (6-AB)
+6-Bromopravadoline (WIN 54,461)
+6-Chloronicotine
+6-Fluoro-N,N-diethyltryptamine (6-Fluoro-DET)
+6-Methoxy-N,N-dimethyltryptamine (6-MeO-DMT)
+6-Methyldesnitroetonitazene
+6-Methylhexahydroazepinoindoles (PNU-22394, PNU-22394A)
+6-Monoacetylmorphine (6-MAM)
+7-Amino-6,7,8,9-tetrahydro-5H-benzocycloheptene (7-AB)
+7-Chloro-α-methyltryptamine (7-Chloro-αMT)
+7-Chlorotryptamine (7-Chloro-T)
+7-Hydroxymitragynine
+8-Bromotheophylline (8-BTP)
+8-Chlorotheophylline (8-CTP)
+8-Cyclopentyltheophylline (CPX)
+8-Phenyltheophylline
+8β-Vinylestradiol (8β-VE2)
+9-Methyl-β-carboline
+AH-7921
+AL-1095 (AL-1095)
+Acetanilide
+Acetone
+Acetoxynitazene
+Acetylcholine (ACh)
+Acetylcysteine (NAC)
+Acetylfentanyl
+Acetylsalicylic acid (ASA)
+Acridorex
+Acrylfentanyl
+Adenosine (A)
+Adinazolam
+Adrenalone
+Aeruginascin (4-PO-TMT)
+Afloqualone
+Agomelatine
+Ajmalicine
+Alafen
+Alanine (Ala)
+Aldosterone
+Alfetamine
+Alifedrine
+Allenestrol
+Allenolic acid
+Allobarbital
+Allylescaline (AL)
+Allylescaline (AL)
+Alphenal
+Alprazolam (Xanax)
+Amastatin
+Amfetaminil
+Amifampridine
+Amiflamine
+Aminoestradiol
+Aminopyralid
+Aminorex (AR)
+Amisulpride (AST, APD-421, APD421, APD-403, APD403, DAN-2163, DAN2163)
+Amlodipine
+Ammonia
+Amobarbital
+Amoxapine
+Amoxicillin
+Amphecloral
+Amphetamine (Speed)
+Ampyrone
+Amyl nitrite
+Anabaseine
+Anabasine
+Anatabine
+Anatalline
+Anatoxin-a (VFDF)
+Androstenedione (A4)
+Anethole trithione
+Anhalamine
+Anhalidine
+Anhalinine
+Anhalonidine
+Aniline
+Aniracetam
+Anordrin
+Anpirtoline
+Apafant
+Apomorphine
+Aporphine
+Aprobarbital
+Aptiganel
+Arbutamine
+Arginine (Arg)
+Aripiprazole
+Ascorbic acid (vitamin C)
+Asparagine (Asn)
+Aspartic acid (Asp)
+Atagabalin
+Atomoxetine
+Atropine
+Avizafone
+Baclofen
+Baeocystin (4-PO-NMT)
+Baflofen
+Barbital
+Batrachotoxin (BTX)
+Beclometasone
+Beclometasone dipropionate
+Bemethyl
+Benfluorex
+Benocyclidine (BTCP)
+Benserazide
+Bentazepam
+Benzestrol
+Benzocaine
+Benzofuran (6-APB)
+Benzofuranylpropylaminopentane (BPAP)
+Benzofuranylpropylaminopentane (BPAP)
+Benzoylecgonine
+Benzoylecgonine dimethylamide (RTI-160)
+Benzoylpiperazine (BZOP)
+Benzphetamine
+Benzscaline (4-BzlO-3,5-DMPEA, BZ)
+Benzydamine
+Benzyl chloride
+Benzylalcohol (α-Cresol)
+Benzylamine
+Benzylpenicillin
+Bestatin (Ubenimex)
+Beta-Hydroxy-3-methylfentanyl
+Betamethasone
+Bexlosteride
+Bicarbonate
+Bilastine
+Biperiden
+Bisphenol A diglycidyl ether (BADGE)
+Bisphenol A (BPA)
+Bisphenol AF (BPAF)
+Bisphenol F diglycidyl ether (BFDGE)
+Bisphenol S (BPS)
+Bitolterol
+Botulinum toxin
+Brallobarbital
+Brasofensine
+Brephedrone (4-BMC)
+Bretazenil
+Bretisilocin (5-Fluoro-MET)
+Bromadoline (U-47931E)
+Bromantane
+Bromazepam
+Bromazolam
+Bromo-dragonfly (Bromo-dragonfly)
+Bromoketamine (2-Br-2'-Oxo-PCM, 2-Br-DCK)
+Bromopane (RTI-51)
+Bronitazene
+Brophedrone (3-BMC)
+Brorphine
+Brotizolam
+Brucine
+Bucinnazine (AP-237)
+Budesonide
+Bufotenin (5-HO-DMT)
+Buphedrone (MABP)
+Buphenine
+Buprenorphine
+Bupropion
+Butabarbital
+Butane
+Butaxamine
+Butestrol
+Buthalital
+Butonitazene
+Butylamphetamine (BA)
+Butylcyanoacrylate (BCA)
+Butylone
+Butylphenidate (BPH)
+Butylscopolamine
+Butyltolylquinuclidine
+Butyrylfentanyl
+Cabergoline
+Cafedrine
+Caffeine
+Cannabidiol (CBD)
+Capsaicin
+Caramboxin
+Carbestrol
+Carbidopa
+Carbon
+Carbon tetrachloride (Carbon tet)
+Carfentanyl
+Carisoprodol
+Catharanthalog (CAG)
+Cathine
+Cathinone
+Cericlamine
+Cetirizine
+Cetylpyridinium chloride
+Chloral hydrate
+Chlordiazepoxide
+Chlorhexidine
+Chlorobutanol
+Chloroform
+Chlorphenamine (CP, CPM)
+Chlorphentermine
+Chlorpyrifos
+Choline
+Ciclotizolam
+Ciguatoxin 1 (CTX-1)
+Ciguatoxin 2 (CTX-2)
+Ciguatoxin 3 (CTX-3)
+Ciguatoxin 4b (CTX-4b)
+Cinazepam
+Cinnamedrine
+Cinolazepam
+Citric acid
+Citrulline
+Clephedrone (4-CMC)
+Climazolam (Ro21-3982)
+Clindamycin
+Clipredrone (4-CIC)
+Clobazam
+Clobenzorex
+Cloforex
+Clominorex
+Clomipramine
+Clonazafone
+Clonazafone desglycyl
+Clonazepam
+Clonazolam
+Clonidine
+Clonitazene
+Clophedrone (3-CMC)
+Clorazepate
+Clorgyline
+Cloroqualone
+Clortermine
+Clotiazepam
+Clotizolam
+Cocaethylene
+Cocaine
+Codeine
+Codeine-6-glucuronide
+Codeinone
+Colterol
+Coluracetam
+Corbadrine
+Cortisone
+Cotinine
+Creatine
+Cumene
+Cumylpropan-2-amine (Benzeneethanamine)
+Cyanide
+Cyclazocine
+Cyclazodone
+Cyclodiol
+Cycloheptatriene-1-ethylamine
+Cycloheptatriene-1-ylpropan-2-amine
+Cycloheptatriene-1-ylpropan-2-amine
+Cyclohexylamine
+Cyclohexylethylamine
+Cyclopentamine
+Cyclopentylfentanyl
+Cyclopropylfentanyl
+Cyclotriol
+Cyproterone acetate (CPA)
+Cysteine (Cys)
+DOB-5-hemifly (DOI-2-hemifly)
+DOI-2-hemifly (DOI-2-hemifly)
+Daidzein
+Dasotraline
+Deoxyepinephrine (Adrenaline)
+Deoxymethoxetamine (DMXE)
+Deprenyl
+Deprocin (4-HO-DPT)
+Descarboxylysergic acid (DCLA)
+Deschloroclotizolam
+Deschloroetizolam
+Deschloroketamine (DCK)
+Desmethyldeprenyl (DMS)
+Desmethylflunitrazepam
+Desmethylprodine (MPPP)
+Desmethylsibutramine
+Desmetramadol (Desmetramadol, O-DSMT)
+Desnitazene
+Desnitroclonitazene
+Desomorphine
+Desoxypipradrol (2-DPMP)
+Desylamine
+Dexamethasone
+Dexmedetomidine
+Dexmethylphenidate (d-MPH)
+Dextroamphetamine
+Dextromethamphetamine
+Dextromethorphan (DXM)
+Dezocine
+Diacetylmorphine (Heroin)
+Diarylpropionitrile (DPN)
+Diazepam (Valium)
+Dibenzylpiperazine (DBZP)
+Dichlorodiphenyltrichloroethane (DDT)
+Dichloropane (RTI-111)
+Diclazepam
+Diclofenac
+Dienestrol
+Diethyl ether (Ether)
+Diethylpropion
+Diethylstilbestrol (DES)
+Diethyltryptamine (DET)
+Dieticyclidine (PCDE)
+Difemetorex
+Difludiazepam
+Difluoroethane (DFE)
+Dihydrocapsaicin
+Dihydrocodeine
+Dihydroergotamine (DHE)
+Dihydrotanshinone I
+Dihydrotestosterone (DHT)
+Diisopropyltryptamine (DiPT)
+Dimenhydrinate
+Dimethocaine
+Dimethyl sulfoxide (DMSO)
+Dimethylamphetamine (Metrotonin)
+Dimethylphenylpiperazinium (DMPP)
+Dimethyltryptamine (DMT, N,N-DMT)
+Dimetonitazene
+Dioxethedrin
+Dioxifedrine
+Dipentylone
+Diphenhydramine (DPH)
+Diphenidine (DPD)
+Diphenpipenol
+Diphenylprolinol (D2PM)
+Diprophylline
+Dipropylcyclopentylxanthine (DPCPX)
+Dipropyltryptamine (DPT)
+Diproqualone
+Disopyramide
+Disulfiram
+Ditazole
+Doisynoestrol
+Doisynolic acid
+Domoic acid
+Domperidone
+Dopamine (DA)
+Doxycycline
+Doxylamine
+Drospirenone
+Duloxetine
+Dutasteride
+Efavirenz
+Elemicin
+Eletriptan
+Emetine
+Encyprate (MO-1255)
+Endomorphin-1
+Endomorphin-2
+Enitazene
+Entacapone
+Ephedrine
+Ephenidine
+Epinephrine (Adrenaline)
+Epinine
+Eprocin (4-HO-EPT)
+Equilenin
+Equilin
+Ergine (LAA, LA-111)
+Ergocornine
+Ergonovine
+Ergotamine
+Erteberel
+Erythrohydrobupropion
+Escitalopram
+Estazolam
+Estetrol (E4)
+Estradiol acetate (EA)
+Estradiol benzoate butyrate (EBB)
+Estradiol benzoate (EB)
+Estradiol butyrylacetate (EBA)
+Estradiol cypionate (EC)
+Estradiol dibutyrate (EDBu)
+Estradiol dibutyrate (EDBu)
+Estradiol dienantate (EDE)
+Estradiol dipropionate (EDP)
+Estradiol diundecylate (EDE)
+Estradiol diundecylenate
+Estradiol enantate (EEN)
+Estradiol furoate (EF)
+Estradiol hemisuccinate
+Estradiol hexahydrobenzoate (EHHB)
+Estradiol palmitate
+Estradiol phenylpropionate (EPP)
+Estradiol pivalate (E2-TMA)
+Estradiol propionate (EP)
+Estradiol propoxyphenylpropionate (EPPP)
+Estradiol stearate (E2-17-St)
+Estradiol sulfamate (E2MATE)
+Estradiol sulfate (E2S)
+Estradiol undecylate (EU)
+Estradiol valerate (EV)
+Estradiol (E2)
+Estramustine
+Estriol (E3)
+Estrone (E1)
+Etafedrine
+Etamicastat
+Etaqualone
+Ethacetin (4-AcO-DET)
+Ethamphetamine (EA)
+Ethanol (Alcohol)
+Ethcathinone
+Ethinylestradiol (EE)
+Ethketamine (NENK, 2-Cl-2'-Oxo-PCE)
+Ethocin (4-HO-DET)
+Ethylbenzene
+Ethylbenzodioxolylbutanamine (EBDB)
+Ethylcyanoacrylate (ECA)
+Ethylene oxide (EO)
+Ethylketazocine
+Ethylmorphine
+Ethylnaphthidate (HDEP-28)
+Ethylnorepinephrine
+Ethylone (EDEC)
+Ethylphenidate (EPH)
+Ethylpropyltryptamine (EPT)
+Ethylthionitazene
+Eticyclidine (PCE)
+Eticyclidone (2'-Oxo-PCE, O-PCE)
+Etilevodopa
+Etizolam
+Etoacetazene
+Etocyanozene
+Etodesnitazene
+Etodesnitazepipne
+Etodesnitazepyne
+Etoetonitazene
+Etolorex
+Etomethazene
+Etonitazene
+Etonitazepipne
+Etonitazepyne
+Etonogestrel
+Etotriflazene
+Eutylone
+Fabomotizole
+Famprofazone
+Fasoracetam
+Fenadiazole
+Fenbutrazate
+Fenclonine (PCPA)
+Fenestrel
+Fenethylline
+Fenfluramine
+Fenmetramide
+Fenoterol
+Fenozolone
+Fenproporex
+Fentanyl
+Feprosidnine
+Fexofenadine
+Fezolamine
+Finasteride
+Flephedrone (4-FMC)
+Flmodafinil
+Flophedrone (3-FMC)
+Flualprazolam
+Flubromazepam
+Flubromazolam
+Flubrotizolam
+Flucetorex
+Fluclotizolam
+Fludrocortisone
+Fluetizolam
+Fluetonitazene
+Fluetonitazepyne
+Flumazenil
+Flumexadol (CERM-1841, 1841-CERM)
+Fluminorex
+Flunitazene
+Flunitrazepam
+Flunitrazolam
+Fluorexetamine (FXE)
+Fluoroketamine (2-FDCK)
+Fluorolintane (2-FPPP)
+Fluoxetine
+Flurazepam
+Fluvoxamine
+Formoterol
+Foslevodopa
+Furanylfentanyl (Fu-F)
+Gababutin
+Gabapentin
+Gaboxadol
+Gamlaphen
+Gamofen
+Genistein
+Gepefrine
+Gidazepam
+Gigantine
+Glucose
+Glutamic acid (Glu)
+Glutamine (Gln)
+Glycerol (VG)
+Glycine (Gly)
+Glyphosate
+Gostatin
+Haloperidol
+Harmaline
+Harmane
+Harmine
+Heparin (UFH)
+Hexahydrocannabinol (HHC)
+Hexane
+Hexapradol
+Hexedrone
+Hexestrol
+Hexetidine
+Hexolame
+Hippulin
+Histamine
+Histidine (His)
+Homarylamine (MDMPEA)
+Homatropine
+Homocapsaicin
+Homodihydrocapsaicin
+Homovanillic acid
+Homovanillyl alcohol
+Hordenine
+Huperzine A (HupA)
+Hydrafinil
+Hydrastinine
+Hydrocodone
+Hydrocortisone (Cortisol)
+Hydromorphone
+Hydroxetamine (HXE)
+Hydroxybupropion
+Hydroxylamine
+Hydroxyzine
+Hyoscyamine
+Ibogainalog (IBG)
+Ibogaine
+Ibogaminalog
+Ibopamine
+Ibotenic acid
+Ibuprofen
+Imagabalin
+Imidazenil
+Indapyrophenidone
+Indatraline (Lu 19-005)
+Indolylpropylaminopentane (IPAP)
+Iometopane (RTI-55)
+Ipracetin (4-AcO-DiPT)
+Iprocin (4-HO-DiPT)
+Ipsapirone
+Isobutane
+Isobutonitazene
+Isobutyl nitrite
+Isobutylmethylxanthine (IBMX)
+Isobutyrylfentanyl
+Isocyclamine
+Isoetarine
+Isoethcathinone
+Isohexylone
+Isoleucine (Ile)
+Isoniazid
+Isoprenaline
+Isopropanol (IPA)
+Isopropyl nitrite
+Isopropylamphetamine (IA)
+Isopropylbenzylamine
+Isopropylphenidate (IPH)
+Isopropylphenidine (NPDPA)
+Isotodesnitazene
+Isotonitazene
+Isotonitazepyne
+Isovaleramide
+Isoxsuprine
+Israpafant
+JQ1
+JWH-193 (JWH-193)
+JWH-198 (JWH-198)
+JWH-200 (JWH-200)
+KRM-II-81
+Ketamine (2-Cl-2'-Oxo-PCM, K)
+Ketazocine
+Ketoprofen
+Lactase
+Lactose
+Ladostigil (TV-3326)
+Lefetamine
+Leu-enkephalin
+Leucine (Leu)
+Levallorphan
+Levoamphetamine
+Levomethamphetamine
+Levomethorphan (LVM)
+Levorphanol
+Lidocaine
+Lisdexamphetamine (Vyvanse)
+Lisuride
+Loperamide
+Lophophine
+Lopirazepam
+Loprazolam
+Lorazepam
+Lorcaserin
+Lormetazepam
+Lysergic acid diallylamide (LDA, DAL)
+Lysergic acid diethylamide (LSD, LSD-25)
+Lysergic acid dimethylamide (DAM, DAM-57)
+Lysergic acid dipropylamide (LSDP, LSDPr, LADP, LPP, DPL)
+Lysergic acid ethylamide (LAE, LAE-32)
+Lysergic acid fluorodiethylamide (F-LSD)
+Lysergic acid methylamide (LAM, NM-LA)
+Lysergic acid (LSA)
+Lysine (Lys)
+MN-25 (UR-12)
+Macromerine
+Magnesium
+Mebroqualone
+Mebufotenin (5-MeO-DMT)
+Meclonazepam
+Mecloqualone
+Medroxyprogesterone acetate (MPA)
+Mefenorex
+Mefentanyl (3-MF)
+Melatonin
+Melevodopa
+Memantine
+Menitazene
+Menthol
+Menthyl isovalerate (Validolum)
+Mephedrene
+Mephedrine (4-MMA, 4MMA)
+Mephedrone (4-MMC)
+Mephenidine
+Mephentermine
+Meprocin (4-HO-MPT)
+Mescaline (TMPEA)
+Mesocarb (MLR-1017)
+Met-enkephalin
+Meta-Hydroxynorephedrine
+Meta-Tyramine
+Meta-Xylene
+Metacetamol
+Metacetin (4-AcO-MET)
+Metamizole
+Metaphedrine (3-MMA)
+Metaphedrone (3-MMC)
+Metaraminol (Metaradrine)
+Metfendrazine
+Methadone
+Methallenestril
+Methamexamine
+Methamphetamine (MA)
+Methanol
+Methaqualone (Quaalude)
+Methcathinone
+Methedrone (PMMC)
+Methiodone (IC-26, WIN 1161-3)
+Methionine (Met)
+Methionitazene
+Methiopropamine
+Methitural
+Methoxamine
+Methoxetamine (MXE)
+Methoxisopropamine (MXiPr)
+Methoxphenidine (MXP)
+Methoxpropamine (MXPr)
+Methoxyketamine (2-MeO-DCK)
+Methoxyphenamine (OMMA)
+Methoxypiperamide (MeOP, MEXP)
+Methoxyqualone
+Methylbenzoylpiperazine (MBZOP)
+Methylbenzylpiperazine (MBZP)
+Methylcyanoacrylate (MCA)
+Methyldopa
+Methylephedrine
+Methylestradiol
+Methylethyltryptamine (MET)
+Methylethyltryptamine (MET)
+Methylhexanamine (1,3-DMAA)
+Methylisopropyltryptamine (MiPT)
+Methylmethaqualone (MMQ)
+Methylnaphthidate (HDMP-28)
+Methylone (MDMC)
+Methylphenethylamine (NMPEA)
+Methylphenidate (MPH)
+Methylpropyltryptamine (MPT)
+Methylpseudoephedrine
+Methyltestosterone
+Methyltyramine (NMT)
+Metizolam
+Metocin (4-HO-MET)
+Metoclopramide
+Metodesnitazene
+Metonitazene
+Metonitazepyne
+Mianserin
+Midazolam
+Mifepristone
+Minoxidil
+Mipracetin (4-AcO-MiPT)
+Miprocin (4-HO-MiPT)
+Mirogabalin
+Mirtazapine
+Mitragynine
+Modafinil
+Monomethyltryptamine (NMT)
+Morazone
+Morforex
+Morphine
+Morpholine
+Moxaverine
+Moxestrol
+Muscarine
+Muscimol
+Myosmine
+Myristicin
+N,N-Dimethyldopamine (DMDA)
+N,N-Dimethyletonitazene
+N,N-Dimethylphenethylamine (N,N-DMPEA)
+N-(1-Adamantyl)-1-pentyl-1H-indazole-3-carboxamide (APICA, 2NE1)
+N-(1-Adamantyl)-1-pentyl-1H-indazole-3-carboxamide (APINACA, AKB48)
+N-(2-(Dimethylamino)acetaldehyde)amphetamine
+N-(2-Chloroethyl)-N-ethyl-2-bromobenzylamine (DSP-4)
+N-(2-Fluorobenzyl)phenethylamine (NBF)
+N-(2-Hydroxybenzyl)phenethylamine (NBOH)
+N-(2-Methoxybenzyl)-4-ethylamphetamine
+N-(2-Methoxybenzyl)phenethylamine (NBOMe)
+N-(2C-B-FLY)-Fentanyl
+N-(3-Methoxybenzyl)phenethylamine (NB3OMe)
+N-(4-Methoxybenzyl)phenethylamine (NB4OMe)
+N-(L-Lysinamidyl)-3,4-methylenedioxyamphetamine (Lys-MDA)
+N-(L-Lysinamidyl)-3,4-methylenedioxymethamphetamine (Lys-MDMA)
+N-(Tert-butylformate)-3,4-methylenedioxymethamphetamine (N-t-Boc-MDMA)
+N-Acetyl-2-methylamphetamine
+N-Acetyl-4-fluoroamphetamine
+N-Acetyl-4-methylamphetamine
+N-Acetyl-L-tyrosine (NALT)
+N-Acetylamphetamine
+N-Acetylmethamphetamine
+N-Arachidonoyl dopamine (NADA)
+N-Benzylethylenediamine
+N-Benzylethylphenidate (NBEPH)
+N-Benzylmethcathinone
+N-Benzylmethcathinone (NBMC)
+N-Benzylmethylphenidate (NBMPH)
+N-Benzylphenethylamine (NB)
+N-Benzyltryptamine (T-NB, NB-T)
+N-Carbamoylamphetamine
+N-Desethyletonitazene
+N-Desethylisotonitazene
+N-Desethylprotonitazene
+N-Ethyl-4-methyl-nor-pentedrone (4-MEAP)
+N-Ethyl-5-trifluoromethyl-2-aminoindane (ETAI)
+N-Ethyl-nor-heptedrone
+N-Ethyl-nor-heptylone
+N-Ethyl-nor-hexedrone (Hexen)
+N-Ethyl-nor-pentedrone (NEP)
+N-Ethyl-nor-pentylone
+N-Ethyltryptamine (NET, NETP)
+N-Formylamphetamine
+N-Isopropyl-α-propylphenethylamine (N-iPr-α-Pr-PEA)
+N-Methyl-2-aminoindane (NM-2-AI)
+N-Methylanabasine
+N-Methylbupropion
+N-Methylcyclazodone
+N-Methylindatraline
+N-Phenethyl-α-ethylphenethylamine (N-PhEt-α-Et-PEA)
+N-Phenylethanol
+N-Propyl-α-benzylphenethylamine (N-Pr-α-Bn-PEA)
+N-Trifluoroacetylamphetamine
+N-desmethyllysergic acid diethylamide (Nor-LSD, norLSD, H-LAD)
+N1-(Cyclopropylmethanoyl)-lysergic acid diethylamide (1cP-LSD)
+N1-Tert-butoxycarbonyldimethyltryptamine (NBoc-DMT, NB-DMT)
+Nalbuphine
+Naloxol
+Naloxone
+Naltrexone
+Nandrolone
+Nandrolone decanoate
+Nandrolone phenylpropionate (NPP)
+Naphthylmetrazine (PAL-704)
+Naphthylmorpholine (PAL-678)
+Naphyrone
+Naratriptan
+Naringenin
+Nefiracetam
+Neopinone
+Neosaxitoxin
+Neostigmine
+Nepicastat
+Nevirapine
+Niacin (vitamin B3)
+Nicotinamide mononucleotide (NMN)
+Nicotine
+Nifoxipam
+Nikethamide
+Nitazene
+Nitrazepam
+Nitrazolam
+Nitroglycerine (NG)
+Nitromethaqualone
+Nitrous oxide (Nitrous)
+Nonivamide
+Nonylphenol
+Nor-Mephedrone (4-MC)
+Norbaeocystin (4-PO-T)
+Norbenzphetamine
+Norcodeine
+Nordazepam
+Nordihydrocapsaicin
+Norepinephrine (NE)
+Norfluoxetine
+Norflurane
+Norflurazepam
+Noribogainalog (nor-IBG)
+Noribogaminalog
+Norketamine
+Nornicotine
+Norpropylhexedrine
+Norpseudoephedrine
+Norpsilocin (4-HO-NMT)
+Noscapine
+Octenidine
+Octopamine (OCT)
+Octylcyanoacrylate (OCA)
+Oenethyl
+Olanzapine
+Omberacetam (GVS-111)
+Ondansetron
+Ortetamine (2-MA)
+Ortho-Xylene
+Orthophedrone (2-MMC)
+Oxaflozane (CERM-1766, 1766-CERM)
+Oxazepam
+Oxidopamine (6-OHDA)
+Oxilofrine (4-HEP)
+Oxiracetam
+Oxitriptan (5-HTP)
+Oxycodone
+Oxyfedrine
+Oxytocin
+PHA-57378
+Pabofen
+Pagoclone
+Panthenol
+Pantoprazole
+Pantothenic acid (vitamin B5)
+Papaverine
+Para-Chlorophenyltropane (RTI-31)
+Para-Hydroxynorephedrine
+Para-Xylene
+Paracetamol
+Paramethoxyamphetamine (PMA)
+Paramethoxymethamphetamine (PMMA)
+Paraquat
+Paraxanthine
+Pargyline
+Paroxetine
+Paroxypropione
+Pellotine (Peyotline)
+Pemoline
+Penitrem A (Tremortin)
+Pentamethoxyamphetamine (PeMA)
+Pentamethoxyphenethylamine (PeMPEA)
+Pentazocine
+Pentedrone
+Pentobarbital
+Pentorex
+Pentylenetetrazol
+Pentylone
+Pepstatin
+Perfluorooctanoic acid (PFOA)
+Pethidine
+Phacetoperane
+Phenacylamine
+Phenaridine
+Phenatine
+Phenazepam
+Phencyclidine (PCP)
+Phendimetrazine
+Phenelzine
+Phenethylamine (PEA)
+Phenetrazine
+Phenibut
+Pheniprazine
+Phenmetetrazine
+Phenmetrazine
+Phenobarbital
+Phenol
+Phenoxymethylpenicillin
+Phenpromethamine (BMMPEA)
+Phenpromethamine (BMMPEA)
+Phentermine
+Phenylalanine (Phe)
+Phenylbutazone
+Phenylcyclohexylmorpholine (PCMo)
+Phenylephrine
+Phenylethanolamine
+Phenylpiperazine (PP, PP-1)
+Phenylpiracetam
+Phenylpropanolamine (PPA)
+Phenylpropylamine
+Phenylpropylaminopentane (PPAP)
+Pholedrine
+Pholedrine (4-HMA)
+Piberaline (EGYT-475)
+Picamilon
+Picloram
+Picolinic acid
+Pinazepam
+Pinoline
+Piperazine
+Piperidine
+Piperine
+Pipradrol
+Piracetam
+Pramiracetam
+Pravadoline (WIN 48,098)
+Prednisolone
+Pregabalin
+Prenylamine
+Primidone
+Procaine
+Procaterol
+Procyclidine
+Prodine
+Progesterone (P4)
+Proline (Pro)
+Prolintane
+Promethazine
+Propane
+Propentofylline (HWA 285, HWA-285)
+Propofol
+Propranolol
+Propylamphetamine (PA)
+Propylcathinone
+Propylene glycol (PG)
+Propylhexedrine
+Propylnitazene (PPZ)
+Propylone
+Propylphenidate (PPH)
+Propylphenidine (N-Pr-α-Ph-PEA)
+Protodesnitazene
+Protonitazene
+Protonitazepyne
+Pseudocumene
+Pseudoephedrine
+Pseudophenmetrazine
+Psilacetin (4-AcO-DMT)
+Psilocin (4-HO-DMT)
+Psilocybin (4-PO-DMT)
+Psilomethoxin (4-HO-5-MeO-DMT)
+Pyrazolam
+Pyridine
+Pyridoxine
+Pyridoxiphen
+Pyrovalerone (O-2371)
+Pyrrolidine
+Quazepam
+Quetiapine
+Quinuclidinyl Benzilate (QNB)
+Racefemine
+Radafaxine
+Rasagiline
+Remifentanil
+Resiniferatoxin (RTX)
+Rilmazafone
+Rilmazolam
+Rimiterol
+Ritalinic acid
+Ritodrine
+Ro09-9212
+Rocuronium bromide
+Rolicyclidine (PCPy)
+Rosuvastatin
+SKA-121 (SKA-121)
+Salbutamol
+Sarin
+Saxitoxin
+Scopolamine
+Secbutonitazene
+Secobarbital
+Selenocysteine (Sec)
+Serdexmethylphenidate (SDX)
+Serine (Ser)
+Serotonin (5-HT)
+Sertraline
+Setiptiline
+Sibutramine
+Sildenafil (Viagra)
+Solriamfetol
+Speciociliatine
+Spironolactone
+Statine (Sta)
+Stilbestrol
+Strychnine
+Substance P (SP)
+Sufentanyl
+Suloctidil
+Sulpiride
+Sultopride
+Sumatriptan
+Sunifiram (DM-235)
+Suxamethonium
+Synephrine
+TCB-2 (TCB-2)
+Tabernanthalog (TBG)
+Tadalafil
+Talbutal
+Tametraline (CP-24,441)
+Tapentadol
+Taurine
+Temazepam
+Temgicoluril
+Tert-Butyl-bicyclophosphate (TBPO)
+Tesofensine
+Testosterone
+Tetracaine
+Tetraethyllead
+Tetrafluoroethane
+Tetrahydroharmine
+Tetrahydroisoquinoline (TIQ, THIQ, AMPH-CR)
+Tetramethylenedisulfotetramine (TETS)
+Tetrazepam
+Tetrodotoxin
+Theanine
+Thebaine
+Theobromine
+Theodrenaline
+Theophylline
+Thiadiazolylmethamphetamine (TDMA)
+Thialbarbital
+Thiamine (vitamin B1)
+Thiamylal
+Thiobarbital
+Thiobutabarbital
+Thioephedrine
+Thiopental
+Thiophenatine
+Thiopropamine
+Thiotetrabarbital
+Thiothinone
+Thozalinone
+Threohydrobupropion
+Threonine (Thr)
+Thyroxine (T4)
+Tianeptine
+Tiflorex
+Tiletamine
+Tilidine
+Tinofedrine
+Tolicyclidine (3-Me-PCPy)
+Tolpane (RTI-32)
+Tolpane (RTI-32)
+Toluene
+Tomscaline (TMPEA)
+Toxiferine
+Tramadol
+Tranylcypromine
+Trazodone
+Trazodone (AF-1161)
+Trecadrine
+Triazolam
+Trichloroethylene (TCE)
+Trichloroisocyanuric acid (TCCA)
+Trichocereine
+Trimethylamphetamine (TMA)
+Trimipramine
+Triprolidine
+Troparil
+Tropicamide
+Tryptamine
+Tryptoline
+Tryptophan (Trp)
+Tyramine
+Tyrosine (Tyr)
+Tyrothricin
+U-47700
+U-48800
+U-49900
+Uric acid
+VX
+Valine (Val)
+Valproate
+Varenicline
+Vasopressin
+Venlafaxine
+Warfarin
+Water
+Xenon
+Yohimbine
+ZDCM-04
+Zamicastat
+Zapizolam
+Zeranol
+Zolazepam
+Zolpidem
+Zopiclone
+Zylofuramine
+t-Butylnitazene
+Δ-10-tetrahydrocannabinol (Δ-10-THC)
+Δ-8-tetrahydrocannabinol (Δ-8-THC)
+Δ-9-tetrahydrocannabinol (THC)
+α,N-Dimethyl-5-bromo-β-ketotryptamine (βk-5Br-NM-αMT)
+α,N-Dimethyl-5-chloro-β-ketotryptamine (βk-5Cl-NM-αMT)
+α,N-Dimethyl-5-fluoro-β-ketotryptamine (βk-5F-NM-αMT)
+α,N-Dimethyl-β-ketotryptamine (βk-NM-αMT)
+α,N-Dimethyltryptamine (NM-αMT)
+α-Acetyl-2-benzylpiperidine
+α-Benzylphenethylamine (α-Bn-PEA)
+α-Cyclopropyl-3,4-methylenedioxymethamphetamine (UWA-101)
+α-Endorphin
+α-Ethyl-N-propylphenethylamine (α-Et-N-Pr-PEA)
+α-Ethylphenethylamine (α-Et-PEA)
+α-Ethyltryptamine (αET)
+α-Hexylphenethylamine (α-He-PEA)
+α-Hydroxyetizolam
+α-Isopropyl-2-benzylpiperidine
+α-Methyl-p-tyrosine (AMPT)
+α-Methylbenzylamine (α-PEA)
+α-Methyldopamine (α-Me-DA)
+α-Methylepinine
+α-Methylfentanyl
+α-Methylmethcathinone
+α-Methyltryptamine (αMT)
+α-Piperidinobutiophenone (α-PIPBP)
+α-Piperidinohexiophenone (α-PIPHP)
+α-Piperidinopropiophenone (α-PIPPP)
+α-Propylphenethylamine (APPEA, α-Pr-PEA)
+α-Pyrrolidino-2-phenylacetophenone (α-D2PV)
+α-Pyrrolidinobutiophenone (α-PBP)
+α-Pyrrolidinocyclohexanophenone (α-PCyP)
+α-Pyrrolidinoheptaphenone (α-PEP)
+α-Pyrrolidinohexiophenone (α-PHP)
+α-Pyrrolidinoisohexanophenone (α-PiHP)
+α-Pyrrolidinopentiophenone (α-PVP, O-2387)
+α-Pyrrolidinopentiothiophenone
+α-Pyrrolidinopropiophenone (α-PPP)
+β,N,N-Trimethylphenethylamine (DMPPA)
+β-Carboline
+β-Endorphin
+β-Ethyltryptamine (βET)
+β-Hydroxy-4-bromo-2,5-dimethoxyphenylamine (βOH-2C-B)
+β-Hydroxyamphetamine
+β-Hydroxymethamphetamine
+β-Methoxy-3,4-methylenedioxyphenethylamine (BOH)
+β-Methyl-N,N-dimethyltryptamine (βM-DMT)
+β-Methyl-N-methyltryptamine (βM-NMT)
+β-Methylamphetamine
+β-Methylamphetamine (BMA, βMA)
+β-Methylfentanyl
+β-Methylphenethylamine (BMPEA)
+β-Methyltryptamine (βMT)
+β-Phenylmethamphetamine
+γ-Aminobutyric acid (GABA)
+γ-Butyrolactone (GBL)
+γ-Endorphin
+γ-Hydroxybutyric acid (GHB)
+γ-Hydroxyvaleric acid (GHV)
+γ-Valerolactone (GVL)
