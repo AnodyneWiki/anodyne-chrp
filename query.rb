@@ -10,6 +10,7 @@ require_relative 'forms'
 require_relative 'text'
 require_relative 'refs'
 require_relative 'effects'
+require_relative 'sider'
 require_relative 'sql'
 
 require_relative 'chemspider'
@@ -69,6 +70,7 @@ def try(root, compound, prefixes, postfix, unii, key, indepth, salt)
     record.merge!(query_wikipedia record)
     #record.merge!(query_sciencemadness record)
     record.merge!(query_dosing record)
+    record.merge!(query_sider record)
     #record.merge!(query_kegg record)
     record.merge!(query_mesh record)
     record.merge!(query_reddit record)
