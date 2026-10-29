@@ -2,24 +2,39 @@
 
 AnodyneWiki's aggregator scripts.
 
-### Usage
+## Usage
+### with nix
+`nix develop .`
+
+### without nix
 
 ```shell
-# enter frontend directory
+# enter frontend directory, or pass --frontend=/usr/src/anodyne-frontend to each command
 cd /usr/src/anodyne-frontend
 
+# the database defaults to db.sqlite in the frontend directory, override with --database=PATH
+
 # setup ref icons etc
-ruby /usr/src/chrp/chrp.rb --mode=init
+/usr/src/chrp/exe/chrp --mode=init
 
 # manually clear substance cache
-ruby /usr/src/chrp/chrp.rb --cache=/tmp/chrp --mode=uncache EPT
+/usr/src/chrp/exe/chrp --cache=/tmp/chrp --mode=uncache EPT
 
 # aggregate substance data without clearing cache
-ruby /usr/src/chrp/chrp.rb --cache=/tmp/chrp --mode=search EPT
+/usr/src/chrp/exe/chrp --cache=/tmp/chrp --mode=search EPT
 
 # aggregate substance data after clearing cache
-ruby /usr/src/chrp/chrp.rb --cache=/tmp/chrp --mode=research EPT
+/usr/src/chrp/exe/chrp --cache=/tmp/chrp --mode=research EPT
 
-# update substituent index
-ruby /usr/src/chrp/chrp.rb --cache=/tmp/chrp --mode=index Phenethylamine
+# update a class index (class/ or substituted/)
+/usr/src/chrp/exe/chrp --mode=index Phenethylamine
+
+# update the class indexes a substance belongs to
+/usr/src/chrp/exe/chrp --mode=index Magnesium
+
+# update every class index
+/usr/src/chrp/exe/chrp --mode=index
+
+# leave out sources that are offline
+/usr/src/chrp/exe/chrp --cache=/tmp/chrp --mode=search --skip=dbi-igs,protestkit EPT
 ```

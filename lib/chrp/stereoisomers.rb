@@ -2,7 +2,7 @@ require 'json'
 require 'open3'
 
 def list_stereoisomers(base)
-  command = ["python3", "/usr/src/chrp/stereoisomers.py", base]
+  command = ["python3", File.expand_path("../../scripts/stereoisomers.py", __dir__), base]
   stdout, stderr, status = Open3.capture3(*command)
 
   if status.success?

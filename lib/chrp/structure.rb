@@ -1,10 +1,25 @@
 require 'open3'
+require 'tmpdir'
 
 require_relative 'config'
 require_relative 'forms'
 
+# molpic.jar is either in the frontend's molpic/ directory or in an
+# anodyne-molpic checkout next to chrp. Looked up on use, as --frontend
+# changes the working directory after this file is loaded.
+def molpic_jar
+  [
+    "molpic/molpic.jar",
+    File.expand_path("../../../anodyne-molpic/molpic.jar", __dir__),
+  ].find { |jar| File.exist?(jar) } || "molpic/molpic.jar"
+end
+
+def molpic_command
+  $options[:molpic] || "java -jar \"#{molpic_jar}\""
+end
+
 def generate_structure(record, mpca, subst)
-  mpc = "java -jar molpic/molpic.jar " + mpca
+  mpc = molpic_command + " " + mpca
   title = record["Title"]
   title = record["SaltTitle"] if record["SaltTitle"] != nil
   return record if title == nil
@@ -61,16 +76,18 @@ def generate_structure(record, mpca, subst)
   else
     mpc += " -o \"structure/#{title.downcase.gsub(/\s+/, '_')}.svg\""
     if subst
-      cffj = "/tmp/molpic_" + Digest::MD5.hexdigest(mpc) + ".json"
+      cffj = Dir.tmpdir + "/molpic_" + Digest::MD5.hexdigest(mpc) + ".json"
       mpc += " -d \"#{cffj}\""
     end
     #mpc += " -j \"#{vars_file}\""
   end
 
   puts "#{mpc}" if !$options[:v].nil?
+  FileUtils.mkdir_p("structure")
   ret = system(mpc)
 
   if !ret
+    puts "Structure generation failed for #{title} (#{molpic_command})"
     return record
   end
   svg_file = File.read( (!$options[:c].nil? && cff != nil) ? cff : "structure/#{title.downcase.gsub(/\s+/, '_')}.svg")

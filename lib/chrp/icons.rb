@@ -1,7 +1,9 @@
+require 'fileutils'
 require_relative 'refs'
 
 def generate_icon_css()
   css = ""
+  FileUtils.mkdir_p("icons")
   REFS.each do |ref|
     if ref[:icon] != nil
       css += "a.logo[href *='#{ref[:url]}'] { background: url('/icons/#{ref[:name].downcase.gsub(" ", "_")}.ico') center right no-repeat; background-size: 16px; padding-right: 18px }\n"

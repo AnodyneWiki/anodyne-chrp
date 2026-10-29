@@ -12,3 +12,6 @@ def query_hmdb(prev_record)
   end
 
   url = CHEMBL_URL + record["CHEMBL"] + CHEMBL_URL_END
+
+  return record
+end

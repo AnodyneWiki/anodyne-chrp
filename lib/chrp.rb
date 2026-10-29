@@ -4,10 +4,10 @@ require 'open-uri'
 require 'nokogiri'
 require 'json'
 
-require_relative 'args'
-require_relative 'config'
-require_relative 'indexer'
-require_relative 'query'
+require_relative 'chrp/args'
+require_relative 'chrp/config'
+require_relative 'chrp/indexer'
+require_relative 'chrp/query'
 
 def calculate_checksum(file_path)
   return nil unless File.exist?(file_path)
@@ -118,93 +118,3 @@ def isearch(single)
     end
   end
 end
-
-handle_args()
-if $options[:m] == "search"
-  if ARGV.empty?
-    isearch("")
-  else
-    isearch($compounds[0])
-    exit 0
-    #query($compounds[0], $compounds[0], "")
-  end
-elsif $options[:m] == "index"
-  list_content = File.read('classes.json')
-  $vclasses = []
-  if list_content != nil
-    $vclasses = JSON.parse(list_content)["VClasses"]
-  end
-  if ARGV.empty?
-    for vclass in $vclasses
-      for iclass in vclass['Classes']
-        puts "Indexing: #{iclass}"
-        index_class(vclass['Path'], vclass['JName'], iclass)
-      end
-    end
-  else
-    mpath = $to_index[2]
-    mclass = $to_index[1]
-    for vclass in $vclasses
-      for iclass in vclass['Classes']
-        if iclass == $to_index[0]
-          mpath = vclass['Path']
-          mclass = vclass['JName']
-        end
-      end
-    end
-    index_class(mpath, mclass, $to_index[0])
-  end
-elsif $options[:m] == "init"
-  generate_icon_css()
-  #generate_substitutions()
-elsif $options[:m] == "uncache"
-  if $options[:c] != nil
-    if ARGV.empty?
-      puts "No substances to uncache defined"
-      exit 1
-    end
-
-    for arg in ARGV
-      iuncache($options[:c], arg.downcase)
-    end
-  end
-elsif $options[:m] == "research"
-  list_content = File.read('index/substance.json')
-  list_content_comp = File.read('index/composite.json')
-
-  listi = nil
-  listi = JSON.parse(list_content)["Entries"] if list_content != nil
-
-  listic = nil
-  listic = JSON.parse(list_content_comp)["Entries"] if list_content_comp != nil
-
-  if $options[:v]
-    puts "list: #{listi.length}"
-    puts "list composites: #{listi.length}"
-  end
-    if ARGV.empty?
-      for comp in listi
-        abrs = comp["Abr"].is_a?(String) ? [ comp["Abr"] ] : comp["Abr"].is_a?(Array) ? comp["Abr"] : nil
-        if comp["Title"] != nil && (comp["NoBuild"] != true) && ( !Dir.exist?("/substance/#{comp['Title'].downcase.gsub(' ', '_')}") || File.exist?("/structure/#{comp['Title'].downcase.gsub(' ', '_')}"))
-          iuncache($options[:c], comp["Title"])
-          search(comp)
-        end
-      end
-      for comp in listic
-        abrs = comp["Abr"].is_a?(String) ? [ comp["Abr"] ] : comp["Abr"].is_a?(Array) ? comp["Abr"] : nil
-        if comp["Title"] != nil && (comp["NoBuild"] != true)
-          iuncache($options[:c], comp["Title"])
-          search_composite(comp)
-        end
-      end
-    else
-      for arg in ARGV
-        iuncache($options[:c], arg.downcase)
-        isearch(arg)
-      end
-    end
-else
-  puts "Unknown mode: #{$options[:m]}"
-  exit 1
-end
-exit 0

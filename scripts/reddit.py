@@ -7,9 +7,9 @@ from datetime import datetime, timezone
 # Configuration
 # ---------------------------------------------------------------------------
 
-POSTS_FILE  = "r_tripreports_posts.jsonl"
-EROWID_FILE = "erowid_substances.json"
-OUTPUT_FILE = "reddit_test.json"
+POSTS_FILE  = "assets/r_tripreports_posts.jsonl"
+EROWID_FILE = "assets/erowid_substances.json"
+OUTPUT_FILE = "assets/reddit_test.json"
 
 # Minimum body length to consider a post a real trip report.
 # Posts under this threshold are almost always just a title with no content,
@@ -982,7 +982,6 @@ def scrape_all() -> list[dict]:
 # Standalone usage
 # ---------------------------------------------------------------------------
 
-OUTPUT_FILE = "reddit_test.json"
 
 if __name__ == "__main__":
     if "--reparse" in sys.argv:

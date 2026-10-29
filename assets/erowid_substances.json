@@ -1,0 +1,3778 @@
+[
+  {
+    "id": 51,
+    "name": "1,4-Butanediol"
+  },
+  {
+    "id": 355,
+    "name": "19-Norandrostenedione"
+  },
+  {
+    "id": 885,
+    "name": "1B-LSD"
+  },
+  {
+    "id": 952,
+    "name": "1cP-AL-LAD"
+  },
+  {
+    "id": 906,
+    "name": "1cP-LSD"
+  },
+  {
+    "id": 970,
+    "name": "1D-LSD"
+  },
+  {
+    "id": 919,
+    "name": "1F-LSD"
+  },
+  {
+    "id": 729,
+    "name": "1P-ETH-LAD"
+  },
+  {
+    "id": 682,
+    "name": "1P-LSD"
+  },
+  {
+    "id": 979,
+    "name": "1S-LSD"
+  },
+  {
+    "id": 980,
+    "name": "1T-LSD"
+  },
+  {
+    "id": 957,
+    "name": "1V-LSD"
+  },
+  {
+    "id": 703,
+    "name": "2'-Oxo-PCE"
+  },
+  {
+    "id": 982,
+    "name": "2'-oxo-PCPr"
+  },
+  {
+    "id": 826,
+    "name": "2,6-Dibromomescaline"
+  },
+  {
+    "id": 796,
+    "name": "2-, 3-, or 4-Methylmethcathinone"
+  },
+  {
+    "id": 291,
+    "name": "2-Aminoindan"
+  },
+  {
+    "id": 977,
+    "name": "2-Fluoro-2-oxo-PCE"
+  },
+  {
+    "id": 519,
+    "name": "2-Fluoroamphetamine"
+  },
+  {
+    "id": 778,
+    "name": "2-Fluorodeschloroketamine"
+  },
+  {
+    "id": 895,
+    "name": "2-Fluoroethamphetamine"
+  },
+  {
+    "id": 668,
+    "name": "2-Fluoromethamphetamine"
+  },
+  {
+    "id": 685,
+    "name": "2-hydroxycocaine"
+  },
+  {
+    "id": 453,
+    "name": "2-Me-DMT"
+  },
+  {
+    "id": 900,
+    "name": "2-Methyl AP-237"
+  },
+  {
+    "id": 496,
+    "name": "2-Methyl-2-Butanol"
+  },
+  {
+    "id": 771,
+    "name": "2-Methylmethcathinone"
+  },
+  {
+    "id": 614,
+    "name": "25B-NBOH"
+  },
+  {
+    "id": 564,
+    "name": "25B-NBOMe"
+  },
+  {
+    "id": 763,
+    "name": "25C-NBOH"
+  },
+  {
+    "id": 540,
+    "name": "25C-NBOMe"
+  },
+  {
+    "id": 541,
+    "name": "25D-NBOMe"
+  },
+  {
+    "id": 890,
+    "name": "25E-NBOH"
+  },
+  {
+    "id": 878,
+    "name": "25E-NBOMe"
+  },
+  {
+    "id": 588,
+    "name": "25G-NBOMe"
+  },
+  {
+    "id": 819,
+    "name": "25H-NBOMe"
+  },
+  {
+    "id": 615,
+    "name": "25I-NBOH"
+  },
+  {
+    "id": 542,
+    "name": "25I-NBOMe"
+  },
+  {
+    "id": 845,
+    "name": "25N-NBOMe"
+  },
+  {
+    "id": 986,
+    "name": "25P-NBOH"
+  },
+  {
+    "id": 768,
+    "name": "25P-NBOMe"
+  },
+  {
+    "id": 757,
+    "name": "25T7-NBOMe"
+  },
+  {
+    "id": 52,
+    "name": "2C-B"
+  },
+  {
+    "id": 350,
+    "name": "2C-B-Fly"
+  },
+  {
+    "id": 262,
+    "name": "2C-C"
+  },
+  {
+    "id": 947,
+    "name": "2C-CN"
+  },
+  {
+    "id": 103,
+    "name": "2C-D"
+  },
+  {
+    "id": 137,
+    "name": "2C-E"
+  },
+  {
+    "id": 621,
+    "name": "2C-EF"
+  },
+  {
+    "id": 446,
+    "name": "2C-G-N"
+  },
+  {
+    "id": 492,
+    "name": "2C-H"
+  },
+  {
+    "id": 172,
+    "name": "2C-I"
+  },
+  {
+    "id": 795,
+    "name": "2C-IP"
+  },
+  {
+    "id": 317,
+    "name": "2C-N"
+  },
+  {
+    "id": 305,
+    "name": "2C-P"
+  },
+  {
+    "id": 805,
+    "name": "2C-T"
+  },
+  {
+    "id": 749,
+    "name": "2C-T-13"
+  },
+  {
+    "id": 53,
+    "name": "2C-T-2"
+  },
+  {
+    "id": 290,
+    "name": "2C-T-21"
+  },
+  {
+    "id": 274,
+    "name": "2C-T-4"
+  },
+  {
+    "id": 54,
+    "name": "2C-T-7"
+  },
+  {
+    "id": 359,
+    "name": "2C-TFM"
+  },
+  {
+    "id": 671,
+    "name": "3,4-Dichloromethylphenidate"
+  },
+  {
+    "id": 959,
+    "name": "3,4-MD-PCP"
+  },
+  {
+    "id": 891,
+    "name": "3-Chloroethcathinone"
+  },
+  {
+    "id": 965,
+    "name": "3-Chloromethcathinone"
+  },
+  {
+    "id": 954,
+    "name": "3-Chlorophenmetrazine"
+  },
+  {
+    "id": 928,
+    "name": "3-Cl-PCP"
+  },
+  {
+    "id": 680,
+    "name": "3-Fluoroamphetamine"
+  },
+  {
+    "id": 786,
+    "name": "3-Fluoroethamphetamine"
+  },
+  {
+    "id": 792,
+    "name": "3-Fluoromethamphetamine"
+  },
+  {
+    "id": 833,
+    "name": "3-HO-PCE"
+  },
+  {
+    "id": 838,
+    "name": "3-HO-PCP"
+  },
+  {
+    "id": 958,
+    "name": "3-Me-PCE"
+  },
+  {
+    "id": 951,
+    "name": "3-Me-PCPy"
+  },
+  {
+    "id": 536,
+    "name": "3-MEO-PCE"
+  },
+  {
+    "id": 700,
+    "name": "3-MeO-PCMo"
+  },
+  {
+    "id": 558,
+    "name": "3-MeO-PCP"
+  },
+  {
+    "id": 921,
+    "name": "3-Methyl-PCP"
+  },
+  {
+    "id": 964,
+    "name": "3-Methylmethamphetamine"
+  },
+  {
+    "id": 592,
+    "name": "3-Methylmethcathinone"
+  },
+  {
+    "id": 438,
+    "name": "3C-B"
+  },
+  {
+    "id": 587,
+    "name": "3C-E"
+  },
+  {
+    "id": 320,
+    "name": "3C-P"
+  },
+  {
+    "id": 918,
+    "name": "3F-PCP"
+  },
+  {
+    "id": 678,
+    "name": "3F-Phenmetrazine"
+  },
+  {
+    "id": 444,
+    "name": "4-AcO-DALT"
+  },
+  {
+    "id": 188,
+    "name": "4-AcO-DET"
+  },
+  {
+    "id": 55,
+    "name": "4-AcO-DiPT"
+  },
+  {
+    "id": 387,
+    "name": "4-AcO-DMT"
+  },
+  {
+    "id": 607,
+    "name": "4-AcO-DPT"
+  },
+  {
+    "id": 526,
+    "name": "4-AcO-EIPT"
+  },
+  {
+    "id": 901,
+    "name": "4-AcO-EPT"
+  },
+  {
+    "id": 802,
+    "name": "4-AcO-MALT"
+  },
+  {
+    "id": 711,
+    "name": "4-AcO-MET"
+  },
+  {
+    "id": 312,
+    "name": "4-AcO-MiPT"
+  },
+  {
+    "id": 867,
+    "name": "4-AcO-MPT"
+  },
+  {
+    "id": 734,
+    "name": "4-Chloroethcathinone"
+  },
+  {
+    "id": 723,
+    "name": "4-Chloromethcathinone"
+  },
+  {
+    "id": 672,
+    "name": "4-Ethylmethcathinone"
+  },
+  {
+    "id": 276,
+    "name": "4-Fluoroamphetamine"
+  },
+  {
+    "id": 702,
+    "name": "4-Fluorobutyrfentanyl"
+  },
+  {
+    "id": 679,
+    "name": "4-Fluorococaine"
+  },
+  {
+    "id": 580,
+    "name": "4-Fluoromethamphetamine"
+  },
+  {
+    "id": 504,
+    "name": "4-Fluoromethcathinone"
+  },
+  {
+    "id": 728,
+    "name": "4-Fluoromethylphenidate"
+  },
+  {
+    "id": 365,
+    "name": "4-HO-DET"
+  },
+  {
+    "id": 281,
+    "name": "4-HO-DiPT"
+  },
+  {
+    "id": 608,
+    "name": "4-HO-DPT"
+  },
+  {
+    "id": 777,
+    "name": "4-HO-EPT"
+  },
+  {
+    "id": 843,
+    "name": "4-HO-MALT"
+  },
+  {
+    "id": 803,
+    "name": "4-HO-MCPT"
+  },
+  {
+    "id": 436,
+    "name": "4-HO-MET"
+  },
+  {
+    "id": 342,
+    "name": "4-HO-MiPT"
+  },
+  {
+    "id": 530,
+    "name": "4-HO-MPT"
+  },
+  {
+    "id": 931,
+    "name": "4-HO-PIPT"
+  },
+  {
+    "id": 742,
+    "name": "4-MeO-DMT"
+  },
+  {
+    "id": 404,
+    "name": "4-MeO-MiPT"
+  },
+  {
+    "id": 498,
+    "name": "4-MeO-PCP"
+  },
+  {
+    "id": 985,
+    "name": "4-MePPP"
+  },
+  {
+    "id": 515,
+    "name": "4-Methoxymethcathinone"
+  },
+  {
+    "id": 56,
+    "name": "4-Methylaminorex"
+  },
+  {
+    "id": 916,
+    "name": "4-Methylamphetamine"
+  },
+  {
+    "id": 544,
+    "name": "4-Methylethcathinone"
+  },
+  {
+    "id": 458,
+    "name": "4-Methylmethcathinone"
+  },
+  {
+    "id": 973,
+    "name": "4-Methylpentedrone"
+  },
+  {
+    "id": 263,
+    "name": "4-MTA"
+  },
+  {
+    "id": 902,
+    "name": "4-PrO-DMT"
+  },
+  {
+    "id": 953,
+    "name": "4B-MAR"
+  },
+  {
+    "id": 744,
+    "name": "4C-D"
+  },
+  {
+    "id": 873,
+    "name": "4F-PHP"
+  },
+  {
+    "id": 561,
+    "name": "5-APB"
+  },
+  {
+    "id": 715,
+    "name": "5-APDB"
+  },
+  {
+    "id": 927,
+    "name": "5-Chloro-AMT"
+  },
+  {
+    "id": 847,
+    "name": "5-EAPB"
+  },
+  {
+    "id": 578,
+    "name": "5-IT"
+  },
+  {
+    "id": 624,
+    "name": "5-MAPB"
+  },
+  {
+    "id": 370,
+    "name": "5-MeO-AET"
+  },
+  {
+    "id": 104,
+    "name": "5-MeO-AMT"
+  },
+  {
+    "id": 714,
+    "name": "5-MeO-BFE"
+  },
+  {
+    "id": 321,
+    "name": "5-MeO-DALT"
+  },
+  {
+    "id": 364,
+    "name": "5-MeO-DET"
+  },
+  {
+    "id": 701,
+    "name": "5-MeO-DiBF"
+  },
+  {
+    "id": 57,
+    "name": "5-MeO-DiPT"
+  },
+  {
+    "id": 58,
+    "name": "5-MeO-DMT"
+  },
+  {
+    "id": 391,
+    "name": "5-MeO-DPT"
+  },
+  {
+    "id": 727,
+    "name": "5-MeO-EIPT"
+  },
+  {
+    "id": 883,
+    "name": "5-MeO-MALT"
+  },
+  {
+    "id": 910,
+    "name": "5-MeO-MET"
+  },
+  {
+    "id": 287,
+    "name": "5-MeO-MIPT"
+  },
+  {
+    "id": 946,
+    "name": "5-MeO-PIPT"
+  },
+  {
+    "id": 713,
+    "name": "5-MeO-TMT"
+  },
+  {
+    "id": 782,
+    "name": "5-MES-DMT"
+  },
+  {
+    "id": 606,
+    "name": "5-Methoxy-Tryptamine"
+  },
+  {
+    "id": 840,
+    "name": "5-Methoxymethylone"
+  },
+  {
+    "id": 288,
+    "name": "5-Methyl-MDA"
+  },
+  {
+    "id": 725,
+    "name": "5F-AKB48"
+  },
+  {
+    "id": 908,
+    "name": "5F-MDMB-PICA"
+  },
+  {
+    "id": 516,
+    "name": "6-APB"
+  },
+  {
+    "id": 622,
+    "name": "6-APDB"
+  },
+  {
+    "id": 673,
+    "name": "6-MAPB"
+  },
+  {
+    "id": 962,
+    "name": "6-Methoxymethylone"
+  },
+  {
+    "id": 416,
+    "name": "7-Hydroxymitragynine"
+  },
+  {
+    "id": 772,
+    "name": "AB-001"
+  },
+  {
+    "id": 687,
+    "name": "AB-CHMINACA"
+  },
+  {
+    "id": 628,
+    "name": "AB-FUBINACA"
+  },
+  {
+    "id": 4,
+    "name": "Absinthe"
+  },
+  {
+    "id": 77,
+    "name": "Acacia"
+  },
+  {
+    "id": 664,
+    "name": "Acacia confusa"
+  },
+  {
+    "id": 825,
+    "name": "Acacia maidenii"
+  },
+  {
+    "id": 824,
+    "name": "Acacia phlebophylla"
+  },
+  {
+    "id": 774,
+    "name": "Acepromazine"
+  },
+  {
+    "id": 337,
+    "name": "Acetaminophen"
+  },
+  {
+    "id": 740,
+    "name": "Acetildenafil"
+  },
+  {
+    "id": 692,
+    "name": "Acetylfentanyl"
+  },
+  {
+    "id": 372,
+    "name": "Aconitum napellus"
+  },
+  {
+    "id": 914,
+    "name": "ADB-FUBINACA"
+  },
+  {
+    "id": 216,
+    "name": "Adrafinil"
+  },
+  {
+    "id": 329,
+    "name": "Adrenochrome"
+  },
+  {
+    "id": 299,
+    "name": "AET"
+  },
+  {
+    "id": 595,
+    "name": "AH-7921"
+  },
+  {
+    "id": 603,
+    "name": "AL-LAD"
+  },
+  {
+    "id": 502,
+    "name": "Albizia julibrissin"
+  },
+  {
+    "id": 61,
+    "name": "Alcohol"
+  },
+  {
+    "id": 199,
+    "name": "Alcohol - Beer/Wine"
+  },
+  {
+    "id": 198,
+    "name": "Alcohol - Hard"
+  },
+  {
+    "id": 748,
+    "name": "ALD-52"
+  },
+  {
+    "id": 807,
+    "name": "ALEPH"
+  },
+  {
+    "id": 557,
+    "name": "Aleph-4"
+  },
+  {
+    "id": 573,
+    "name": "Allylescaline"
+  },
+  {
+    "id": 656,
+    "name": "Aloes"
+  },
+  {
+    "id": 783,
+    "name": "alpha-GPC"
+  },
+  {
+    "id": 907,
+    "name": "alpha-PCYP"
+  },
+  {
+    "id": 945,
+    "name": "alpha-PHiP"
+  },
+  {
+    "id": 677,
+    "name": "alpha-PHP"
+  },
+  {
+    "id": 585,
+    "name": "alpha-PVP"
+  },
+  {
+    "id": 529,
+    "name": "AM-2201"
+  },
+  {
+    "id": 240,
+    "name": "AM-DIPT"
+  },
+  {
+    "id": 5,
+    "name": "Amanitas"
+  },
+  {
+    "id": 70,
+    "name": "Amanitas - A. muscaria"
+  },
+  {
+    "id": 71,
+    "name": "Amanitas - A. pantherina"
+  },
+  {
+    "id": 978,
+    "name": "Amantadine"
+  },
+  {
+    "id": 735,
+    "name": "AMB-FUBINACA"
+  },
+  {
+    "id": 971,
+    "name": "Amisulpride"
+  },
+  {
+    "id": 6,
+    "name": "Amphetamines"
+  },
+  {
+    "id": 696,
+    "name": "Amphetamines - Substituted"
+  },
+  {
+    "id": 7,
+    "name": "AMT"
+  },
+  {
+    "id": 384,
+    "name": "Anabolic Steroids"
+  },
+  {
+    "id": 139,
+    "name": "Anadenanthera colubrina"
+  },
+  {
+    "id": 285,
+    "name": "Anadenanthera peregrina"
+  },
+  {
+    "id": 284,
+    "name": "Anadenanthera spp."
+  },
+  {
+    "id": 295,
+    "name": "Animals"
+  },
+  {
+    "id": 476,
+    "name": "Animals - Black Widow Spider"
+  },
+  {
+    "id": 296,
+    "name": "Animals - Fire Ants"
+  },
+  {
+    "id": 509,
+    "name": "Animals - Frogs"
+  },
+  {
+    "id": 286,
+    "name": "Aniracetam"
+  },
+  {
+    "id": 651,
+    "name": "Anise"
+  },
+  {
+    "id": 929,
+    "name": "AP-238"
+  },
+  {
+    "id": 500,
+    "name": "Argemone spp."
+  },
+  {
+    "id": 507,
+    "name": "Armodafinil"
+  },
+  {
+    "id": 478,
+    "name": "Arundo donax"
+  },
+  {
+    "id": 897,
+    "name": "Arylcyclohexylamines"
+  },
+  {
+    "id": 732,
+    "name": "Ashwagandha"
+  },
+  {
+    "id": 631,
+    "name": "Aspirin"
+  },
+  {
+    "id": 912,
+    "name": "Atropine"
+  },
+  {
+    "id": 8,
+    "name": "Ayahuasca"
+  },
+  {
+    "id": 717,
+    "name": "Bacopa monnieri"
+  },
+  {
+    "id": 567,
+    "name": "Bad/Suspect Ecstasy"
+  },
+  {
+    "id": 169,
+    "name": "Banisteriopsis caapi"
+  },
+  {
+    "id": 743,
+    "name": "Banisteriopsis muricata"
+  },
+  {
+    "id": 693,
+    "name": "Barbital"
+  },
+  {
+    "id": 210,
+    "name": "Barbiturates"
+  },
+  {
+    "id": 449,
+    "name": "BDB"
+  },
+  {
+    "id": 658,
+    "name": "Bee - Mad Honey"
+  },
+  {
+    "id": 9,
+    "name": "Belladonna"
+  },
+  {
+    "id": 434,
+    "name": "Benzodiazepines"
+  },
+  {
+    "id": 730,
+    "name": "Benzydamine"
+  },
+  {
+    "id": 870,
+    "name": "Berberine"
+  },
+  {
+    "id": 92,
+    "name": "Betel Nut"
+  },
+  {
+    "id": 719,
+    "name": "Biperiden"
+  },
+  {
+    "id": 667,
+    "name": "Bismuth Subsalicylate"
+  },
+  {
+    "id": 618,
+    "name": "bk-2C-B"
+  },
+  {
+    "id": 712,
+    "name": "bk-DMBDB"
+  },
+  {
+    "id": 915,
+    "name": "bk-EBDB"
+  },
+  {
+    "id": 798,
+    "name": "bk-EBDP"
+  },
+  {
+    "id": 348,
+    "name": "bk-MBDB"
+  },
+  {
+    "id": 625,
+    "name": "bk-MDDMA"
+  },
+  {
+    "id": 346,
+    "name": "bk-MDEA"
+  },
+  {
+    "id": 452,
+    "name": "Black Cohosh"
+  },
+  {
+    "id": 637,
+    "name": "Blue Lily"
+  },
+  {
+    "id": 572,
+    "name": "BOD"
+  },
+  {
+    "id": 721,
+    "name": "BOH-2C-B"
+  },
+  {
+    "id": 559,
+    "name": "Boophone disticha"
+  },
+  {
+    "id": 655,
+    "name": "Borage"
+  },
+  {
+    "id": 775,
+    "name": "Bremelanotide"
+  },
+  {
+    "id": 875,
+    "name": "Bromadol"
+  },
+  {
+    "id": 654,
+    "name": "Bromazepam"
+  },
+  {
+    "id": 933,
+    "name": "Bromazolam"
+  },
+  {
+    "id": 349,
+    "name": "Bromo-Dragonfly"
+  },
+  {
+    "id": 84,
+    "name": "Brugmansia"
+  },
+  {
+    "id": 146,
+    "name": "Brunfelsia spp."
+  },
+  {
+    "id": 649,
+    "name": "Bryonia"
+  },
+  {
+    "id": 62,
+    "name": "Bufotenin"
+  },
+  {
+    "id": 576,
+    "name": "Butalbital"
+  },
+  {
+    "id": 765,
+    "name": "Butyrfentanyl"
+  },
+  {
+    "id": 401,
+    "name": "BZ"
+  },
+  {
+    "id": 101,
+    "name": "BZP"
+  },
+  {
+    "id": 642,
+    "name": "Cacahuaxochitl"
+  },
+  {
+    "id": 638,
+    "name": "Cacao"
+  },
+  {
+    "id": 10,
+    "name": "Cacti - columnar"
+  },
+  {
+    "id": 324,
+    "name": "Cacti - M. geometrizans"
+  },
+  {
+    "id": 809,
+    "name": "Cacti - Mescaline-containing"
+  },
+  {
+    "id": 448,
+    "name": "Cacti - T. bridgesii"
+  },
+  {
+    "id": 64,
+    "name": "Cacti - T. pachanoi"
+  },
+  {
+    "id": 69,
+    "name": "Cacti - T. peruvianus"
+  },
+  {
+    "id": 818,
+    "name": "Cacti - T. terscheckii"
+  },
+  {
+    "id": 11,
+    "name": "Caffeine"
+  },
+  {
+    "id": 106,
+    "name": "Calamus"
+  },
+  {
+    "id": 97,
+    "name": "Calea zacatechichi"
+  },
+  {
+    "id": 887,
+    "name": "Canarium luzonicum"
+  },
+  {
+    "id": 596,
+    "name": "Cannabidiol"
+  },
+  {
+    "id": 484,
+    "name": "Cannabinoid Receptor Agonists"
+  },
+  {
+    "id": 812,
+    "name": "Cannabinoids"
+  },
+  {
+    "id": 1,
+    "name": "Cannabis"
+  },
+  {
+    "id": 93,
+    "name": "Cannabis - Hash"
+  },
+  {
+    "id": 597,
+    "name": "Cannabis - High CBD"
+  },
+  {
+    "id": 598,
+    "name": "Cannabis - High THC"
+  },
+  {
+    "id": 421,
+    "name": "Capsaicin"
+  },
+  {
+    "id": 420,
+    "name": "Capsicum spp."
+  },
+  {
+    "id": 605,
+    "name": "Carbidopa"
+  },
+  {
+    "id": 423,
+    "name": "Carbogen"
+  },
+  {
+    "id": 439,
+    "name": "Carbon Dioxide"
+  },
+  {
+    "id": 932,
+    "name": "Cariprazine"
+  },
+  {
+    "id": 830,
+    "name": "Carnegiea gigantea"
+  },
+  {
+    "id": 427,
+    "name": "Casimiroa edulis"
+  },
+  {
+    "id": 32,
+    "name": "Catha edulis"
+  },
+  {
+    "id": 12,
+    "name": "Cathinone"
+  },
+  {
+    "id": 68,
+    "name": "Catnip"
+  },
+  {
+    "id": 325,
+    "name": "Catuaba"
+  },
+  {
+    "id": 987,
+    "name": "CBN"
+  },
+  {
+    "id": 600,
+    "name": "Cerebrolysin"
+  },
+  {
+    "id": 643,
+    "name": "Cestrum spp."
+  },
+  {
+    "id": 428,
+    "name": "Chamomile"
+  },
+  {
+    "id": 816,
+    "name": "Changa"
+  },
+  {
+    "id": 468,
+    "name": "Cheese - Blue"
+  },
+  {
+    "id": 602,
+    "name": "Chloral Hydrate"
+  },
+  {
+    "id": 850,
+    "name": "Chlorobutanol"
+  },
+  {
+    "id": 250,
+    "name": "Chloroform"
+  },
+  {
+    "id": 164,
+    "name": "Chlorpheniramine Maleate"
+  },
+  {
+    "id": 182,
+    "name": "Chocolate"
+  },
+  {
+    "id": 601,
+    "name": "Citicoline"
+  },
+  {
+    "id": 180,
+    "name": "Clenbuterol"
+  },
+  {
+    "id": 759,
+    "name": "Clobazam"
+  },
+  {
+    "id": 930,
+    "name": "Clomipramine"
+  },
+  {
+    "id": 686,
+    "name": "Clonazolam"
+  },
+  {
+    "id": 837,
+    "name": "Clotiazepam"
+  },
+  {
+    "id": 412,
+    "name": "Cloves"
+  },
+  {
+    "id": 562,
+    "name": "Clozapine"
+  },
+  {
+    "id": 158,
+    "name": "Coca"
+  },
+  {
+    "id": 13,
+    "name": "Cocaine"
+  },
+  {
+    "id": 14,
+    "name": "Codeine"
+  },
+  {
+    "id": 173,
+    "name": "Coffee"
+  },
+  {
+    "id": 168,
+    "name": "Coleus"
+  },
+  {
+    "id": 800,
+    "name": "Coluracetam"
+  },
+  {
+    "id": 893,
+    "name": "Coryphantha macromeris"
+  },
+  {
+    "id": 533,
+    "name": "CP 47,497"
+  },
+  {
+    "id": 471,
+    "name": "CP 55,940"
+  },
+  {
+    "id": 82,
+    "name": "Crack"
+  },
+  {
+    "id": 939,
+    "name": "Cyclazodone"
+  },
+  {
+    "id": 237,
+    "name": "Cytisus scoparius"
+  },
+  {
+    "id": 769,
+    "name": "DALT"
+  },
+  {
+    "id": 107,
+    "name": "Damiana"
+  },
+  {
+    "id": 15,
+    "name": "Datura"
+  },
+  {
+    "id": 836,
+    "name": "Delosperma cooperi"
+  },
+  {
+    "id": 956,
+    "name": "delta-8-THC"
+  },
+  {
+    "id": 780,
+    "name": "Deschloroetizolam"
+  },
+  {
+    "id": 708,
+    "name": "Deschloroketamine"
+  },
+  {
+    "id": 538,
+    "name": "Desfontainia spinosa"
+  },
+  {
+    "id": 644,
+    "name": "Desfontainia spp."
+  },
+  {
+    "id": 360,
+    "name": "Desloratadine"
+  },
+  {
+    "id": 78,
+    "name": "Desmanthus illinoensis"
+  },
+  {
+    "id": 612,
+    "name": "Desomorphine"
+  },
+  {
+    "id": 876,
+    "name": "Desoxyescaline"
+  },
+  {
+    "id": 525,
+    "name": "Desoxypipradrol"
+  },
+  {
+    "id": 828,
+    "name": "Desvenlafaxine"
+  },
+  {
+    "id": 16,
+    "name": "DET"
+  },
+  {
+    "id": 869,
+    "name": "Detomidine"
+  },
+  {
+    "id": 920,
+    "name": "Dexamethasone"
+  },
+  {
+    "id": 171,
+    "name": "DHEA"
+  },
+  {
+    "id": 670,
+    "name": "Diclazepam"
+  },
+  {
+    "id": 983,
+    "name": "Dicyclomine"
+  },
+  {
+    "id": 988,
+    "name": "Diethylcathinone"
+  },
+  {
+    "id": 17,
+    "name": "Dimenhydrinate"
+  },
+  {
+    "id": 552,
+    "name": "Dimethocaine"
+  },
+  {
+    "id": 354,
+    "name": "Dioscorea spp."
+  },
+  {
+    "id": 109,
+    "name": "Diphenhydramine"
+  },
+  {
+    "id": 630,
+    "name": "Diphenidine"
+  },
+  {
+    "id": 739,
+    "name": "Diphenoxylate"
+  },
+  {
+    "id": 506,
+    "name": "Diphenyl-2-pyrrolidinemethanol"
+  },
+  {
+    "id": 157,
+    "name": "Diplopterys cabrerana"
+  },
+  {
+    "id": 110,
+    "name": "DiPT"
+  },
+  {
+    "id": 972,
+    "name": "Disulfiram"
+  },
+  {
+    "id": 854,
+    "name": "Ditran"
+  },
+  {
+    "id": 330,
+    "name": "Dizocilpine"
+  },
+  {
+    "id": 944,
+    "name": "DMAA"
+  },
+  {
+    "id": 151,
+    "name": "DMAE"
+  },
+  {
+    "id": 554,
+    "name": "DMMDA"
+  },
+  {
+    "id": 18,
+    "name": "DMT"
+  },
+  {
+    "id": 823,
+    "name": "DMT-Containing"
+  },
+  {
+    "id": 926,
+    "name": "DMXE"
+  },
+  {
+    "id": 19,
+    "name": "DOB"
+  },
+  {
+    "id": 357,
+    "name": "DOC"
+  },
+  {
+    "id": 135,
+    "name": "DOET"
+  },
+  {
+    "id": 881,
+    "name": "DOF"
+  },
+  {
+    "id": 259,
+    "name": "DOI"
+  },
+  {
+    "id": 784,
+    "name": "DOIP"
+  },
+  {
+    "id": 20,
+    "name": "DOM"
+  },
+  {
+    "id": 375,
+    "name": "DON"
+  },
+  {
+    "id": 751,
+    "name": "Donepezil"
+  },
+  {
+    "id": 691,
+    "name": "DOPR"
+  },
+  {
+    "id": 21,
+    "name": "DPT"
+  },
+  {
+    "id": 395,
+    "name": "Duloxetine"
+  },
+  {
+    "id": 22,
+    "name": "DXM"
+  },
+  {
+    "id": 245,
+    "name": "DXO"
+  },
+  {
+    "id": 636,
+    "name": "Echinacea"
+  },
+  {
+    "id": 925,
+    "name": "EDMA"
+  },
+  {
+    "id": 968,
+    "name": "EIPLA"
+  },
+  {
+    "id": 733,
+    "name": "Entada rheedii"
+  },
+  {
+    "id": 889,
+    "name": "Ephedra nevadensis"
+  },
+  {
+    "id": 243,
+    "name": "Ephedra sinica"
+  },
+  {
+    "id": 23,
+    "name": "Ephedrine"
+  },
+  {
+    "id": 689,
+    "name": "Ephenidine"
+  },
+  {
+    "id": 460,
+    "name": "Epimedium spp."
+  },
+  {
+    "id": 955,
+    "name": "Epinephrine"
+  },
+  {
+    "id": 776,
+    "name": "EPT"
+  },
+  {
+    "id": 163,
+    "name": "Ergoloid mesylates"
+  },
+  {
+    "id": 503,
+    "name": "Ergot"
+  },
+  {
+    "id": 426,
+    "name": "Erythrina mulungu"
+  },
+  {
+    "id": 494,
+    "name": "Erythroxylum novogranatense"
+  },
+  {
+    "id": 551,
+    "name": "Escaline"
+  },
+  {
+    "id": 909,
+    "name": "Estradiol"
+  },
+  {
+    "id": 613,
+    "name": "Etaqualone"
+  },
+  {
+    "id": 688,
+    "name": "ETH-LAD"
+  },
+  {
+    "id": 131,
+    "name": "Ether"
+  },
+  {
+    "id": 463,
+    "name": "Ethylcathinone"
+  },
+  {
+    "id": 433,
+    "name": "Ethylene"
+  },
+  {
+    "id": 563,
+    "name": "Ethylphenidate"
+  },
+  {
+    "id": 568,
+    "name": "Etizolam"
+  },
+  {
+    "id": 948,
+    "name": "Etodesnitazene"
+  },
+  {
+    "id": 647,
+    "name": "Eyebright"
+  },
+  {
+    "id": 913,
+    "name": "Fasoracetam"
+  },
+  {
+    "id": 903,
+    "name": "Flualprazolam"
+  },
+  {
+    "id": 832,
+    "name": "Flubromazepam"
+  },
+  {
+    "id": 690,
+    "name": "Flubromazolam"
+  },
+  {
+    "id": 981,
+    "name": "Flubrotizolam"
+  },
+  {
+    "id": 969,
+    "name": "Fluclotizolam"
+  },
+  {
+    "id": 834,
+    "name": "Flunitrazolam"
+  },
+  {
+    "id": 967,
+    "name": "Fluorexetamine"
+  },
+  {
+    "id": 754,
+    "name": "Fluorophenibut"
+  },
+  {
+    "id": 868,
+    "name": "Flutoprazepam"
+  },
+  {
+    "id": 650,
+    "name": "Foxglove"
+  },
+  {
+    "id": 779,
+    "name": "Frankincense"
+  },
+  {
+    "id": 760,
+    "name": "Furanylfentanyl"
+  },
+  {
+    "id": 362,
+    "name": "GABA"
+  },
+  {
+    "id": 347,
+    "name": "GABOB"
+  },
+  {
+    "id": 943,
+    "name": "Gaboxadol"
+  },
+  {
+    "id": 24,
+    "name": "Galangal"
+  },
+  {
+    "id": 523,
+    "name": "Galantamine"
+  },
+  {
+    "id": 382,
+    "name": "Gamma-Crotonolactone"
+  },
+  {
+    "id": 493,
+    "name": "Garlic"
+  },
+  {
+    "id": 89,
+    "name": "GBL"
+  },
+  {
+    "id": 25,
+    "name": "GHB"
+  },
+  {
+    "id": 213,
+    "name": "GHV"
+  },
+  {
+    "id": 177,
+    "name": "Ginger"
+  },
+  {
+    "id": 195,
+    "name": "Ginkgo biloba"
+  },
+  {
+    "id": 144,
+    "name": "Ginseng"
+  },
+  {
+    "id": 487,
+    "name": "Glaucine"
+  },
+  {
+    "id": 238,
+    "name": "Gotu Kola"
+  },
+  {
+    "id": 750,
+    "name": "Guanfacine"
+  },
+  {
+    "id": 117,
+    "name": "Guarana"
+  },
+  {
+    "id": 214,
+    "name": "GVL"
+  },
+  {
+    "id": 26,
+    "name": "H.B. Woodrose"
+  },
+  {
+    "id": 429,
+    "name": "Halothane"
+  },
+  {
+    "id": 76,
+    "name": "Harmala Alkaloids"
+  },
+  {
+    "id": 314,
+    "name": "Harmaline"
+  },
+  {
+    "id": 315,
+    "name": "Harmine"
+  },
+  {
+    "id": 706,
+    "name": "HDMP-28"
+  },
+  {
+    "id": 333,
+    "name": "Heimia myrtifolia"
+  },
+  {
+    "id": 150,
+    "name": "Heimia salicifolia"
+  },
+  {
+    "id": 194,
+    "name": "Herbal Ecstasy"
+  },
+  {
+    "id": 27,
+    "name": "Heroin"
+  },
+  {
+    "id": 974,
+    "name": "Hexahydrocannabinol"
+  },
+  {
+    "id": 874,
+    "name": "Hoodia gordonii"
+  },
+  {
+    "id": 252,
+    "name": "Hops"
+  },
+  {
+    "id": 790,
+    "name": "Hordenine"
+  },
+  {
+    "id": 454,
+    "name": "Horseradish"
+  },
+  {
+    "id": 747,
+    "name": "HOT-17"
+  },
+  {
+    "id": 489,
+    "name": "HOT-2"
+  },
+  {
+    "id": 746,
+    "name": "HOT-7"
+  },
+  {
+    "id": 866,
+    "name": "HU-210"
+  },
+  {
+    "id": 268,
+    "name": "Huasca Brew"
+  },
+  {
+    "id": 848,
+    "name": "Huasca Brew Group"
+  },
+  {
+    "id": 269,
+    "name": "Huasca Combo"
+  },
+  {
+    "id": 821,
+    "name": "Huasca Group"
+  },
+  {
+    "id": 474,
+    "name": "Huperzine"
+  },
+  {
+    "id": 940,
+    "name": "HXE"
+  },
+  {
+    "id": 635,
+    "name": "Hydrangea"
+  },
+  {
+    "id": 111,
+    "name": "Hydrocodone"
+  },
+  {
+    "id": 300,
+    "name": "Hydromorphone"
+  },
+  {
+    "id": 570,
+    "name": "Hydroxyzine"
+  },
+  {
+    "id": 397,
+    "name": "Hyoscyamine"
+  },
+  {
+    "id": 278,
+    "name": "Hyoscyamus niger"
+  },
+  {
+    "id": 639,
+    "name": "Hypocretin"
+  },
+  {
+    "id": 280,
+    "name": "IAP"
+  },
+  {
+    "id": 810,
+    "name": "Iboga Alkaloid Group"
+  },
+  {
+    "id": 28,
+    "name": "Ibogaine"
+  },
+  {
+    "id": 534,
+    "name": "Idebenone"
+  },
+  {
+    "id": 462,
+    "name": "Ilex guayusa"
+  },
+  {
+    "id": 827,
+    "name": "Ilex vomitoria"
+  },
+  {
+    "id": 531,
+    "name": "Indian Warrior"
+  },
+  {
+    "id": 29,
+    "name": "Inhalants"
+  },
+  {
+    "id": 147,
+    "name": "Inhalants - Nitrites"
+  },
+  {
+    "id": 684,
+    "name": "Isopropylphenidate"
+  },
+  {
+    "id": 942,
+    "name": "Isoproscaline"
+  },
+  {
+    "id": 520,
+    "name": "JB-336"
+  },
+  {
+    "id": 648,
+    "name": "Jojoba"
+  },
+  {
+    "id": 483,
+    "name": "JWH-018"
+  },
+  {
+    "id": 611,
+    "name": "JWH-019"
+  },
+  {
+    "id": 491,
+    "name": "JWH-073"
+  },
+  {
+    "id": 616,
+    "name": "JWH-081"
+  },
+  {
+    "id": 546,
+    "name": "JWH-122"
+  },
+  {
+    "id": 528,
+    "name": "JWH-200"
+  },
+  {
+    "id": 574,
+    "name": "JWH-210"
+  },
+  {
+    "id": 513,
+    "name": "JWH-250"
+  },
+  {
+    "id": 30,
+    "name": "Kava"
+  },
+  {
+    "id": 31,
+    "name": "Ketamine"
+  },
+  {
+    "id": 358,
+    "name": "Kola Nut"
+  },
+  {
+    "id": 203,
+    "name": "Kratom"
+  },
+  {
+    "id": 604,
+    "name": "L-DOPA"
+  },
+  {
+    "id": 303,
+    "name": "Lactuca - L. canadensis"
+  },
+  {
+    "id": 340,
+    "name": "Lactuca - L. virosa"
+  },
+  {
+    "id": 153,
+    "name": "Lactuca spp."
+  },
+  {
+    "id": 298,
+    "name": "Lady's Slipper"
+  },
+  {
+    "id": 345,
+    "name": "Lagochilus inebrians"
+  },
+  {
+    "id": 256,
+    "name": "Lamid"
+  },
+  {
+    "id": 461,
+    "name": "Lavandula spp."
+  },
+  {
+    "id": 289,
+    "name": "Lecithin"
+  },
+  {
+    "id": 590,
+    "name": "Lemon Balm"
+  },
+  {
+    "id": 119,
+    "name": "Leonotis leonurus"
+  },
+  {
+    "id": 371,
+    "name": "Leonotis nepetifolia"
+  },
+  {
+    "id": 431,
+    "name": "Leonurus cardiaca"
+  },
+  {
+    "id": 277,
+    "name": "Leonurus sibiricus"
+  },
+  {
+    "id": 633,
+    "name": "Levamisole"
+  },
+  {
+    "id": 794,
+    "name": "Levetiracetam"
+  },
+  {
+    "id": 293,
+    "name": "Levmetamfetamine"
+  },
+  {
+    "id": 594,
+    "name": "Licorice Root"
+  },
+  {
+    "id": 589,
+    "name": "Lisdexamfetamine"
+  },
+  {
+    "id": 327,
+    "name": "Lobelia spp."
+  },
+  {
+    "id": 582,
+    "name": "Lofepramine"
+  },
+  {
+    "id": 459,
+    "name": "Loperamide"
+  },
+  {
+    "id": 674,
+    "name": "Loratadine"
+  },
+  {
+    "id": 657,
+    "name": "Lorcaserin"
+  },
+  {
+    "id": 963,
+    "name": "Lormetazepam"
+  },
+  {
+    "id": 331,
+    "name": "Lotus/Lily - Nelumbo nucifera"
+  },
+  {
+    "id": 414,
+    "name": "Lotus/Lily - Nymphaea alba"
+  },
+  {
+    "id": 400,
+    "name": "Lotus/Lily - Nymphaea ampla"
+  },
+  {
+    "id": 105,
+    "name": "Lotus/Lily - Nymphaea nouchali var caerulea"
+  },
+  {
+    "id": 858,
+    "name": "Lotus/Lily - Nymphaea pubescens"
+  },
+  {
+    "id": 857,
+    "name": "Lotus/Lily - Unknown spp."
+  },
+  {
+    "id": 399,
+    "name": "Lotus/Lily Group"
+  },
+  {
+    "id": 65,
+    "name": "LSA"
+  },
+  {
+    "id": 2,
+    "name": "LSD"
+  },
+  {
+    "id": 724,
+    "name": "LSM-775"
+  },
+  {
+    "id": 609,
+    "name": "LSZ"
+  },
+  {
+    "id": 975,
+    "name": "Magnesium"
+  },
+  {
+    "id": 855,
+    "name": "MALT"
+  },
+  {
+    "id": 33,
+    "name": "Mandrake"
+  },
+  {
+    "id": 767,
+    "name": "Mansoa alliacea"
+  },
+  {
+    "id": 83,
+    "name": "MAOIs"
+  },
+  {
+    "id": 190,
+    "name": "MBDB"
+  },
+  {
+    "id": 102,
+    "name": "mCPP"
+  },
+  {
+    "id": 34,
+    "name": "MDA"
+  },
+  {
+    "id": 499,
+    "name": "MDAI"
+  },
+  {
+    "id": 35,
+    "name": "MDE"
+  },
+  {
+    "id": 3,
+    "name": "MDMA"
+  },
+  {
+    "id": 683,
+    "name": "MDMB-CHMICA"
+  },
+  {
+    "id": 556,
+    "name": "MDOH"
+  },
+  {
+    "id": 773,
+    "name": "MDPHP"
+  },
+  {
+    "id": 235,
+    "name": "MDPR"
+  },
+  {
+    "id": 861,
+    "name": "MDPT"
+  },
+  {
+    "id": 377,
+    "name": "MDPV"
+  },
+  {
+    "id": 879,
+    "name": "MEAI"
+  },
+  {
+    "id": 829,
+    "name": "Meclofenoxate"
+  },
+  {
+    "id": 935,
+    "name": "Meclonazepam"
+  },
+  {
+    "id": 94,
+    "name": "Melatonin"
+  },
+  {
+    "id": 716,
+    "name": "MEM"
+  },
+  {
+    "id": 378,
+    "name": "MeOPP"
+  },
+  {
+    "id": 941,
+    "name": "Mephentermine"
+  },
+  {
+    "id": 36,
+    "name": "Mescaline"
+  },
+  {
+    "id": 543,
+    "name": "Mescaline-NBOMe"
+  },
+  {
+    "id": 381,
+    "name": "MET"
+  },
+  {
+    "id": 653,
+    "name": "Metaxalone"
+  },
+  {
+    "id": 166,
+    "name": "Methadone"
+  },
+  {
+    "id": 586,
+    "name": "Methallylescaline"
+  },
+  {
+    "id": 37,
+    "name": "Methamphetamine"
+  },
+  {
+    "id": 218,
+    "name": "Methaqualone"
+  },
+  {
+    "id": 81,
+    "name": "Methcathinone"
+  },
+  {
+    "id": 545,
+    "name": "Methiopropamine"
+  },
+  {
+    "id": 450,
+    "name": "Methocarbamol"
+  },
+  {
+    "id": 527,
+    "name": "Methoxetamine"
+  },
+  {
+    "id": 762,
+    "name": "Methoxmetamine"
+  },
+  {
+    "id": 629,
+    "name": "Methoxphenidine"
+  },
+  {
+    "id": 896,
+    "name": "Methoxpropamine"
+  },
+  {
+    "id": 709,
+    "name": "Methoxyketamine"
+  },
+  {
+    "id": 583,
+    "name": "Methylbenzylpiperazine"
+  },
+  {
+    "id": 911,
+    "name": "Methylliberine"
+  },
+  {
+    "id": 665,
+    "name": "Methylmethaqualone"
+  },
+  {
+    "id": 255,
+    "name": "Methylone"
+  },
+  {
+    "id": 949,
+    "name": "Metonitazene"
+  },
+  {
+    "id": 510,
+    "name": "Metoprolol"
+  },
+  {
+    "id": 745,
+    "name": "Mexedrone"
+  },
+  {
+    "id": 486,
+    "name": "Milk Thistle"
+  },
+  {
+    "id": 394,
+    "name": "Mimosa ophthalmocentra"
+  },
+  {
+    "id": 393,
+    "name": "Mimosa spp."
+  },
+  {
+    "id": 74,
+    "name": "Mimosa tenuiflora"
+  },
+  {
+    "id": 864,
+    "name": "MIPLA"
+  },
+  {
+    "id": 251,
+    "name": "MIPT"
+  },
+  {
+    "id": 425,
+    "name": "Miracle Berry"
+  },
+  {
+    "id": 417,
+    "name": "Mitragynine"
+  },
+  {
+    "id": 593,
+    "name": "MMDA"
+  },
+  {
+    "id": 555,
+    "name": "MMDA-3a"
+  },
+  {
+    "id": 75,
+    "name": "Moclobemide"
+  },
+  {
+    "id": 217,
+    "name": "Modafinil"
+  },
+  {
+    "id": 326,
+    "name": "Monotropa uniflora"
+  },
+  {
+    "id": 38,
+    "name": "Morning Glory"
+  },
+  {
+    "id": 211,
+    "name": "Morphine"
+  },
+  {
+    "id": 804,
+    "name": "MPT"
+  },
+  {
+    "id": 634,
+    "name": "MPTP"
+  },
+  {
+    "id": 477,
+    "name": "MSM"
+  },
+  {
+    "id": 676,
+    "name": "MT-45"
+  },
+  {
+    "id": 376,
+    "name": "Mucuna pruriens"
+  },
+  {
+    "id": 292,
+    "name": "Mugwort"
+  },
+  {
+    "id": 924,
+    "name": "Muira-Puama"
+  },
+  {
+    "id": 254,
+    "name": "Mulberry"
+  },
+  {
+    "id": 497,
+    "name": "Mullein"
+  },
+  {
+    "id": 39,
+    "name": "Mushrooms"
+  },
+  {
+    "id": 118,
+    "name": "Mushrooms - G. spectabilis"
+  },
+  {
+    "id": 856,
+    "name": "Mushrooms - P. atlantis"
+  },
+  {
+    "id": 844,
+    "name": "Mushrooms - P. azurescens"
+  },
+  {
+    "id": 66,
+    "name": "Mushrooms - P. cubensis"
+  },
+  {
+    "id": 67,
+    "name": "Mushrooms - P. cyanescens"
+  },
+  {
+    "id": 193,
+    "name": "Mushrooms - P. mexicana"
+  },
+  {
+    "id": 246,
+    "name": "Mushrooms - P. peliculosa"
+  },
+  {
+    "id": 90,
+    "name": "Mushrooms - P. semilanceata"
+  },
+  {
+    "id": 123,
+    "name": "Mushrooms - P. subaeruginosa"
+  },
+  {
+    "id": 133,
+    "name": "Mushrooms - P. tampanensis"
+  },
+  {
+    "id": 127,
+    "name": "Mushrooms - P. weilii"
+  },
+  {
+    "id": 185,
+    "name": "Mushrooms - Panaeolus cyanescens"
+  },
+  {
+    "id": 923,
+    "name": "MXiPr"
+  },
+  {
+    "id": 591,
+    "name": "Myrrh"
+  },
+  {
+    "id": 738,
+    "name": "N-Ethylhexedrone"
+  },
+  {
+    "id": 663,
+    "name": "N-Ethylnorketamine"
+  },
+  {
+    "id": 722,
+    "name": "N-Ethylpentedrone"
+  },
+  {
+    "id": 571,
+    "name": "Nabilone"
+  },
+  {
+    "id": 339,
+    "name": "Naloxone"
+  },
+  {
+    "id": 338,
+    "name": "Naltrexone"
+  },
+  {
+    "id": 532,
+    "name": "Naproxen"
+  },
+  {
+    "id": 508,
+    "name": "Napthylpyrovalerone"
+  },
+  {
+    "id": 617,
+    "name": "NBOH Series"
+  },
+  {
+    "id": 539,
+    "name": "NBOMe Series"
+  },
+  {
+    "id": 132,
+    "name": "Nefazodone"
+  },
+  {
+    "id": 871,
+    "name": "Nicotinamide"
+  },
+  {
+    "id": 383,
+    "name": "Nicotine"
+  },
+  {
+    "id": 646,
+    "name": "Nightshade"
+  },
+  {
+    "id": 737,
+    "name": "Nimetazepam"
+  },
+  {
+    "id": 938,
+    "name": "Nitrazolam"
+  },
+  {
+    "id": 424,
+    "name": "Nitric Oxide"
+  },
+  {
+    "id": 40,
+    "name": "Nitrous Oxide"
+  },
+  {
+    "id": 710,
+    "name": "NMDA Antagonists"
+  },
+  {
+    "id": 579,
+    "name": "Noopept"
+  },
+  {
+    "id": 271,
+    "name": "Nootka Lupine"
+  },
+  {
+    "id": 934,
+    "name": "Norflurazepam"
+  },
+  {
+    "id": 811,
+    "name": "Novel Cannabinoid Receptor Agonists"
+  },
+  {
+    "id": 41,
+    "name": "Nutmeg"
+  },
+  {
+    "id": 835,
+    "name": "O-Desmethyltramadol"
+  },
+  {
+    "id": 989,
+    "name": "O-PCP"
+  },
+  {
+    "id": 626,
+    "name": "Ondansetron"
+  },
+  {
+    "id": 207,
+    "name": "Opiates"
+  },
+  {
+    "id": 407,
+    "name": "Opioids"
+  },
+  {
+    "id": 63,
+    "name": "Opium"
+  },
+  {
+    "id": 575,
+    "name": "Orphenadrine"
+  },
+  {
+    "id": 697,
+    "name": "Oxandrolone"
+  },
+  {
+    "id": 922,
+    "name": "Oxazepam"
+  },
+  {
+    "id": 752,
+    "name": "Oxcarbazepine"
+  },
+  {
+    "id": 176,
+    "name": "Oxycodone"
+  },
+  {
+    "id": 187,
+    "name": "Oxygen"
+  },
+  {
+    "id": 548,
+    "name": "Oxytocin"
+  },
+  {
+    "id": 950,
+    "name": "Paliperidone"
+  },
+  {
+    "id": 894,
+    "name": "Parmotrema spp."
+  },
+  {
+    "id": 121,
+    "name": "Passion Flower"
+  },
+  {
+    "id": 880,
+    "name": "PCE"
+  },
+  {
+    "id": 984,
+    "name": "PCiPr"
+  },
+  {
+    "id": 113,
+    "name": "PCP"
+  },
+  {
+    "id": 518,
+    "name": "Pedicularis spp."
+  },
+  {
+    "id": 451,
+    "name": "Pennyroyal"
+  },
+  {
+    "id": 865,
+    "name": "Pentazocine"
+  },
+  {
+    "id": 619,
+    "name": "Pentedrone"
+  },
+  {
+    "id": 569,
+    "name": "Pentylone"
+  },
+  {
+    "id": 351,
+    "name": "Periwinkle"
+  },
+  {
+    "id": 380,
+    "name": "Petroleum Ether"
+  },
+  {
+    "id": 961,
+    "name": "Petunia"
+  },
+  {
+    "id": 42,
+    "name": "Peyote"
+  },
+  {
+    "id": 415,
+    "name": "pFPP"
+  },
+  {
+    "id": 174,
+    "name": "Phalaris Grass"
+  },
+  {
+    "id": 73,
+    "name": "Pharmaceuticals"
+  },
+  {
+    "id": 822,
+    "name": "Pharmahuasca"
+  },
+  {
+    "id": 501,
+    "name": "Dexmethylphenidate"
+  },
+  {
+    "id": 241,
+    "name": "Albuterol"
+  },
+  {
+    "id": 98,
+    "name": "Alprazolam"
+  },
+  {
+    "id": 859,
+    "name": "Amineptine"
+  },
+  {
+    "id": 165,
+    "name": "Amitriptyline"
+  },
+  {
+    "id": 480,
+    "name": "Antibiotics"
+  },
+  {
+    "id": 422,
+    "name": "Aripiprazole"
+  },
+  {
+    "id": 229,
+    "name": "Atenolol"
+  },
+  {
+    "id": 316,
+    "name": "Atomoxetine"
+  },
+  {
+    "id": 514,
+    "name": "Baclofen"
+  },
+  {
+    "id": 335,
+    "name": "Benzphetamine"
+  },
+  {
+    "id": 265,
+    "name": "Buprenorphine"
+  },
+  {
+    "id": 87,
+    "name": "Bupropion"
+  },
+  {
+    "id": 155,
+    "name": "Buspirone"
+  },
+  {
+    "id": 307,
+    "name": "Butorphanol"
+  },
+  {
+    "id": 310,
+    "name": "Carbamazepine"
+  },
+  {
+    "id": 764,
+    "name": "Carfentanil"
+  },
+  {
+    "id": 186,
+    "name": "Carisoprodol"
+  },
+  {
+    "id": 789,
+    "name": "Cetirizine"
+  },
+  {
+    "id": 356,
+    "name": "Chlordiazepoxide"
+  },
+  {
+    "id": 318,
+    "name": "Chlorpromazine"
+  },
+  {
+    "id": 227,
+    "name": "Citalopram"
+  },
+  {
+    "id": 125,
+    "name": "Clonazepam"
+  },
+  {
+    "id": 344,
+    "name": "Clonidine"
+  },
+  {
+    "id": 831,
+    "name": "Clorazepate"
+  },
+  {
+    "id": 675,
+    "name": "Corticosteroid"
+  },
+  {
+    "id": 234,
+    "name": "Cyclizine"
+  },
+  {
+    "id": 267,
+    "name": "Cyclobenzaprine"
+  },
+  {
+    "id": 115,
+    "name": "Diazepam"
+  },
+  {
+    "id": 392,
+    "name": "Dihydrocodeine"
+  },
+  {
+    "id": 275,
+    "name": "Divalproex"
+  },
+  {
+    "id": 204,
+    "name": "Doxepin"
+  },
+  {
+    "id": 481,
+    "name": "Doxycycline"
+  },
+  {
+    "id": 343,
+    "name": "Doxylamine"
+  },
+  {
+    "id": 225,
+    "name": "Dronabinol"
+  },
+  {
+    "id": 304,
+    "name": "Escitalopram"
+  },
+  {
+    "id": 373,
+    "name": "Eszopiclone"
+  },
+  {
+    "id": 813,
+    "name": "Ethchlorvynol"
+  },
+  {
+    "id": 443,
+    "name": "Ethylmorphine"
+  },
+  {
+    "id": 368,
+    "name": "Fenfluramine"
+  },
+  {
+    "id": 223,
+    "name": "Fentanyl"
+  },
+  {
+    "id": 108,
+    "name": "Flunitrazepam"
+  },
+  {
+    "id": 80,
+    "name": "Fluoxetine"
+  },
+  {
+    "id": 403,
+    "name": "Flurazepam"
+  },
+  {
+    "id": 297,
+    "name": "Fluvoxamine"
+  },
+  {
+    "id": 183,
+    "name": "Gabapentin"
+  },
+  {
+    "id": 308,
+    "name": "Haloperidol"
+  },
+  {
+    "id": 323,
+    "name": "Hydroxyzine"
+  },
+  {
+    "id": 249,
+    "name": "Ibuprofen"
+  },
+  {
+    "id": 406,
+    "name": "Ketobemidone"
+  },
+  {
+    "id": 432,
+    "name": "Lamotrigine"
+  },
+  {
+    "id": 440,
+    "name": "Levofloxacin"
+  },
+  {
+    "id": 892,
+    "name": "Levomilnacipran"
+  },
+  {
+    "id": 409,
+    "name": "Levorphanol"
+  },
+  {
+    "id": 465,
+    "name": "Levothyroxine"
+  },
+  {
+    "id": 124,
+    "name": "Lidocaine"
+  },
+  {
+    "id": 91,
+    "name": "Lithium"
+  },
+  {
+    "id": 79,
+    "name": "Lorazepam"
+  },
+  {
+    "id": 846,
+    "name": "Losartan"
+  },
+  {
+    "id": 839,
+    "name": "Lurasidone"
+  },
+  {
+    "id": 247,
+    "name": "Meclizine"
+  },
+  {
+    "id": 517,
+    "name": "Mefloquine"
+  },
+  {
+    "id": 761,
+    "name": "Meloxicam"
+  },
+  {
+    "id": 309,
+    "name": "Memantine"
+  },
+  {
+    "id": 408,
+    "name": "Meperidine"
+  },
+  {
+    "id": 212,
+    "name": "Meprobamate"
+  },
+  {
+    "id": 244,
+    "name": "Metaxalone"
+  },
+  {
+    "id": 175,
+    "name": "Methotrimeprazine"
+  },
+  {
+    "id": 114,
+    "name": "Methylphenidate"
+  },
+  {
+    "id": 788,
+    "name": "Mianserin"
+  },
+  {
+    "id": 435,
+    "name": "Midazolam"
+  },
+  {
+    "id": 311,
+    "name": "Mirtazapine"
+  },
+  {
+    "id": 306,
+    "name": "Nalbuphine"
+  },
+  {
+    "id": 464,
+    "name": "Nortriptyline"
+  },
+  {
+    "id": 260,
+    "name": "Olanzapine"
+  },
+  {
+    "id": 221,
+    "name": "Oxymorphone"
+  },
+  {
+    "id": 148,
+    "name": "Paroxetine"
+  },
+  {
+    "id": 815,
+    "name": "Pentobarbital"
+  },
+  {
+    "id": 430,
+    "name": "Perazine"
+  },
+  {
+    "id": 505,
+    "name": "Phenazepam"
+  },
+  {
+    "id": 145,
+    "name": "Phenelzine"
+  },
+  {
+    "id": 248,
+    "name": "Phentermine"
+  },
+  {
+    "id": 219,
+    "name": "Phenylephrine"
+  },
+  {
+    "id": 261,
+    "name": "Phenytoin"
+  },
+  {
+    "id": 226,
+    "name": "Prednisone"
+  },
+  {
+    "id": 418,
+    "name": "Pregabalin"
+  },
+  {
+    "id": 374,
+    "name": "Procaine"
+  },
+  {
+    "id": 233,
+    "name": "Procyclidine"
+  },
+  {
+    "id": 336,
+    "name": "Promethazine"
+  },
+  {
+    "id": 490,
+    "name": "Propofol"
+  },
+  {
+    "id": 206,
+    "name": "Propoxyphene"
+  },
+  {
+    "id": 72,
+    "name": "Propranolol"
+  },
+  {
+    "id": 389,
+    "name": "Propylhexedrine"
+  },
+  {
+    "id": 273,
+    "name": "Quetiapine"
+  },
+  {
+    "id": 479,
+    "name": "Reboxetine"
+  },
+  {
+    "id": 253,
+    "name": "Risperidone"
+  },
+  {
+    "id": 766,
+    "name": "Rizatriptan"
+  },
+  {
+    "id": 814,
+    "name": "Secobarbital"
+  },
+  {
+    "id": 228,
+    "name": "Selegeline"
+  },
+  {
+    "id": 88,
+    "name": "Sertraline"
+  },
+  {
+    "id": 130,
+    "name": "Sildenafil"
+  },
+  {
+    "id": 904,
+    "name": "Tadalafil"
+  },
+  {
+    "id": 159,
+    "name": "Temazepam"
+  },
+  {
+    "id": 842,
+    "name": "Thioridazine"
+  },
+  {
+    "id": 205,
+    "name": "Thiothixene"
+  },
+  {
+    "id": 334,
+    "name": "Tiagabine"
+  },
+  {
+    "id": 466,
+    "name": "Tianeptine"
+  },
+  {
+    "id": 167,
+    "name": "Tiletamine"
+  },
+  {
+    "id": 328,
+    "name": "Topiramate"
+  },
+  {
+    "id": 149,
+    "name": "Tramadol"
+  },
+  {
+    "id": 882,
+    "name": "Tranylcypromine"
+  },
+  {
+    "id": 294,
+    "name": "Trazodone"
+  },
+  {
+    "id": 209,
+    "name": "Triazolam"
+  },
+  {
+    "id": 511,
+    "name": "Valproate"
+  },
+  {
+    "id": 512,
+    "name": "Valproic Acid"
+  },
+  {
+    "id": 191,
+    "name": "Venlafaxine"
+  },
+  {
+    "id": 264,
+    "name": "Warfarin"
+  },
+  {
+    "id": 161,
+    "name": "Zaleplon"
+  },
+  {
+    "id": 353,
+    "name": "Ziprasidone"
+  },
+  {
+    "id": 385,
+    "name": "Zolazepam"
+  },
+  {
+    "id": 143,
+    "name": "Zolpidem"
+  },
+  {
+    "id": 272,
+    "name": "Zopiclone"
+  },
+  {
+    "id": 720,
+    "name": "Phendimetrazine"
+  },
+  {
+    "id": 695,
+    "name": "Phenethylamine"
+  },
+  {
+    "id": 806,
+    "name": "Phenethylamines"
+  },
+  {
+    "id": 257,
+    "name": "Phenethylamines - Other"
+  },
+  {
+    "id": 208,
+    "name": "Phenobarbital"
+  },
+  {
+    "id": 445,
+    "name": "Phenylalanine"
+  },
+  {
+    "id": 756,
+    "name": "Phenylpiracetam"
+  },
+  {
+    "id": 419,
+    "name": "Phosphatidylserine"
+  },
+  {
+    "id": 482,
+    "name": "Phyllomedusa bicolor"
+  },
+  {
+    "id": 755,
+    "name": "Physostigmine"
+  },
+  {
+    "id": 322,
+    "name": "Picamilon"
+  },
+  {
+    "id": 886,
+    "name": "Picralima nitida"
+  },
+  {
+    "id": 799,
+    "name": "PIHKAL Substances"
+  },
+  {
+    "id": 888,
+    "name": "Pilocarpine"
+  },
+  {
+    "id": 718,
+    "name": "Pinoline"
+  },
+  {
+    "id": 99,
+    "name": "Piperazines"
+  },
+  {
+    "id": 960,
+    "name": "PIPT"
+  },
+  {
+    "id": 95,
+    "name": "Piracetam"
+  },
+  {
+    "id": 549,
+    "name": "Pituri"
+  },
+  {
+    "id": 411,
+    "name": "Placebo"
+  },
+  {
+    "id": 126,
+    "name": "PMA"
+  },
+  {
+    "id": 849,
+    "name": "PMEA"
+  },
+  {
+    "id": 566,
+    "name": "PMMA"
+  },
+  {
+    "id": 279,
+    "name": "Poppies - California"
+  },
+  {
+    "id": 43,
+    "name": "Poppies - Opium"
+  },
+  {
+    "id": 488,
+    "name": "Pramipexole"
+  },
+  {
+    "id": 599,
+    "name": "Pramiracetam"
+  },
+  {
+    "id": 627,
+    "name": "prazosin"
+  },
+  {
+    "id": 640,
+    "name": "PRL-8-53"
+  },
+  {
+    "id": 662,
+    "name": "Prochlorperazine"
+  },
+  {
+    "id": 521,
+    "name": "Products - Bath Salts, Plant Food, etc"
+  },
+  {
+    "id": 550,
+    "name": "Products - Other"
+  },
+  {
+    "id": 485,
+    "name": "Products - Other Cannabis-Like Smoking Blends"
+  },
+  {
+    "id": 472,
+    "name": "Products - Spice-Like Smoking Blends"
+  },
+  {
+    "id": 524,
+    "name": "Prolintane"
+  },
+  {
+    "id": 645,
+    "name": "Propofol"
+  },
+  {
+    "id": 758,
+    "name": "Proscaline"
+  },
+  {
+    "id": 215,
+    "name": "Pseudoephedrine"
+  },
+  {
+    "id": 388,
+    "name": "Psilocin"
+  },
+  {
+    "id": 239,
+    "name": "Psilocybin"
+  },
+  {
+    "id": 170,
+    "name": "Psychotria viridis"
+  },
+  {
+    "id": 681,
+    "name": "Pyrazolam"
+  },
+  {
+    "id": 820,
+    "name": "RCS-4"
+  },
+  {
+    "id": 156,
+    "name": "Red Rock"
+  },
+  {
+    "id": 352,
+    "name": "Rhodiola rosea"
+  },
+  {
+    "id": 577,
+    "name": "Ritonavir"
+  },
+  {
+    "id": 797,
+    "name": "S-Ketamine"
+  },
+  {
+    "id": 623,
+    "name": "Sakae Naa"
+  },
+  {
+    "id": 398,
+    "name": "Salvia apiana"
+  },
+  {
+    "id": 44,
+    "name": "Salvia divinorum"
+  },
+  {
+    "id": 475,
+    "name": "Salvia officinalis"
+  },
+  {
+    "id": 905,
+    "name": "Salvia sclarea"
+  },
+  {
+    "id": 181,
+    "name": "Salvia splendens"
+  },
+  {
+    "id": 852,
+    "name": "Salvia spp."
+  },
+  {
+    "id": 862,
+    "name": "Salvia verticillata"
+  },
+  {
+    "id": 441,
+    "name": "Salvinorin A"
+  },
+  {
+    "id": 442,
+    "name": "Salvinorin B"
+  },
+  {
+    "id": 641,
+    "name": "Salvinorin B Ethoxymethyl Ether"
+  },
+  {
+    "id": 863,
+    "name": "Salvinorin Group"
+  },
+  {
+    "id": 537,
+    "name": "SAMe"
+  },
+  {
+    "id": 390,
+    "name": "Sassafras"
+  },
+  {
+    "id": 179,
+    "name": "Sceletium tortuosum"
+  },
+  {
+    "id": 134,
+    "name": "Scopolamine"
+  },
+  {
+    "id": 899,
+    "name": "Sibutramine"
+  },
+  {
+    "id": 785,
+    "name": "Sida cordifolia"
+  },
+  {
+    "id": 386,
+    "name": "Silene capensis"
+  },
+  {
+    "id": 232,
+    "name": "Skullcap"
+  },
+  {
+    "id": 801,
+    "name": "Smarts"
+  },
+  {
+    "id": 565,
+    "name": "Smarts - Oxiracetam"
+  },
+  {
+    "id": 379,
+    "name": "Smarts - Phenibut"
+  },
+  {
+    "id": 793,
+    "name": "Smarts - Sulbutiamine"
+  },
+  {
+    "id": 402,
+    "name": "Sophora secundiflora"
+  },
+  {
+    "id": 410,
+    "name": "Spearmint"
+  },
+  {
+    "id": 396,
+    "name": "SSRIs"
+  },
+  {
+    "id": 142,
+    "name": "St. John's Wort"
+  },
+  {
+    "id": 707,
+    "name": "Stimulants"
+  },
+  {
+    "id": 535,
+    "name": "Stipa robusta"
+  },
+  {
+    "id": 652,
+    "name": "Sumatriptan"
+  },
+  {
+    "id": 731,
+    "name": "Synaptolepis kirkii"
+  },
+  {
+    "id": 45,
+    "name": "Syrian Rue"
+  },
+  {
+    "id": 236,
+    "name": "Tabernaemontana spp."
+  },
+  {
+    "id": 791,
+    "name": "Tabernaemontana undulata"
+  },
+  {
+    "id": 200,
+    "name": "Tabernanthe iboga"
+  },
+  {
+    "id": 917,
+    "name": "Tagetes lucida"
+  },
+  {
+    "id": 872,
+    "name": "Tanacetum parthenium"
+  },
+  {
+    "id": 495,
+    "name": "Tapentadol"
+  },
+  {
+    "id": 581,
+    "name": "TCB-2"
+  },
+  {
+    "id": 447,
+    "name": "Tea"
+  },
+  {
+    "id": 522,
+    "name": "Testosterone"
+  },
+  {
+    "id": 473,
+    "name": "Tetrahydroharmine"
+  },
+  {
+    "id": 100,
+    "name": "TFMPP"
+  },
+  {
+    "id": 413,
+    "name": "Theanine"
+  },
+  {
+    "id": 853,
+    "name": "Thebacon"
+  },
+  {
+    "id": 753,
+    "name": "THJ-018"
+  },
+  {
+    "id": 437,
+    "name": "Thujone"
+  },
+  {
+    "id": 781,
+    "name": "Tilidine"
+  },
+  {
+    "id": 726,
+    "name": "Tizanidine"
+  },
+  {
+    "id": 553,
+    "name": "TMA"
+  },
+  {
+    "id": 112,
+    "name": "TMA-2"
+  },
+  {
+    "id": 270,
+    "name": "TMA-6"
+  },
+  {
+    "id": 46,
+    "name": "Toad Venom"
+  },
+  {
+    "id": 47,
+    "name": "Tobacco"
+  },
+  {
+    "id": 266,
+    "name": "Tobacco - Cigarettes"
+  },
+  {
+    "id": 584,
+    "name": "Trihexyphenidyl"
+  },
+  {
+    "id": 898,
+    "name": "Tripelennamine"
+  },
+  {
+    "id": 620,
+    "name": "Triprolidine"
+  },
+  {
+    "id": 808,
+    "name": "Tropane Plants"
+  },
+  {
+    "id": 698,
+    "name": "Tryptamines - Substituted"
+  },
+  {
+    "id": 138,
+    "name": "Tryptophan"
+  },
+  {
+    "id": 196,
+    "name": "Tryptophan - 5-HTP"
+  },
+  {
+    "id": 197,
+    "name": "Tryptophan - L-Tryptophan"
+  },
+  {
+    "id": 116,
+    "name": "Turbina corymbosa"
+  },
+  {
+    "id": 363,
+    "name": "Tyrosine"
+  },
+  {
+    "id": 694,
+    "name": "U-47700"
+  },
+  {
+    "id": 120,
+    "name": "Unknown"
+  },
+  {
+    "id": 699,
+    "name": "UR-144"
+  },
+  {
+    "id": 659,
+    "name": "Uva Ursi"
+  },
+  {
+    "id": 841,
+    "name": "Vaccinium myrtillus"
+  },
+  {
+    "id": 48,
+    "name": "Valerian"
+  },
+  {
+    "id": 741,
+    "name": "Vardenafil"
+  },
+  {
+    "id": 736,
+    "name": "Varenicline"
+  },
+  {
+    "id": 136,
+    "name": "Various"
+  },
+  {
+    "id": 224,
+    "name": "Vasopressin"
+  },
+  {
+    "id": 660,
+    "name": "Vervain"
+  },
+  {
+    "id": 162,
+    "name": "Vinpocetine"
+  },
+  {
+    "id": 817,
+    "name": "Virola elongata"
+  },
+  {
+    "id": 319,
+    "name": "Virola spp."
+  },
+  {
+    "id": 160,
+    "name": "Vitamin B-6"
+  },
+  {
+    "id": 192,
+    "name": "Vitamin C"
+  },
+  {
+    "id": 467,
+    "name": "Vitamins - Choline"
+  },
+  {
+    "id": 230,
+    "name": "Vitamins - Niacin"
+  },
+  {
+    "id": 231,
+    "name": "Vitamins / Supplements"
+  },
+  {
+    "id": 49,
+    "name": "Voacanga africana"
+  },
+  {
+    "id": 770,
+    "name": "Vortioxetine"
+  },
+  {
+    "id": 455,
+    "name": "Wasabi"
+  },
+  {
+    "id": 50,
+    "name": "Wormwood"
+  },
+  {
+    "id": 220,
+    "name": "Xenon"
+  },
+  {
+    "id": 666,
+    "name": "XLR-11"
+  },
+  {
+    "id": 610,
+    "name": "Xylazine"
+  },
+  {
+    "id": 366,
+    "name": "Yarrow"
+  },
+  {
+    "id": 282,
+    "name": "Yerba Mate"
+  },
+  {
+    "id": 96,
+    "name": "Yohimbe"
+  },
+  {
+    "id": 787,
+    "name": "Yohimbine"
+  },
+  {
+    "id": 860,
+    "name": "Zornia latifolia"
+  },
+  {
+    "id": 937,
+    "name": "zz Mood Stabilizers"
+  },
+  {
+    "id": 936,
+    "name": "zz Psychedelics - 2021 JH"
+  }
+]

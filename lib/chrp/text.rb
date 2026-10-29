@@ -1,9 +1,14 @@
+require 'uri'
+
 def contains_symbols(input)
   !!(input =~ /[αβγΔδ]/)
 end
 
+# The last gsub covers anything else URI refuses to parse, e.g. { } in chemical
+# names. Spaces are left to fetch()
 def encode_symbols(input)
   return input.gsub("α", "%CE%B1").gsub("Α", "%CE%B1").gsub("β", "%CE%B2").gsub("Β", "%CE%B2").gsub("Γ", "%CE%B3").gsub("γ", "%CE%B3").gsub("Δ", "%CE%94").gsub("δ", "%CE%B4").gsub("(", "%28").gsub(")", "%29").gsub("'", "%27").gsub("[", "%5B").gsub("]", "%5D")
+    .gsub(/[^A-Za-z0-9\-._~:\/?#\[\]@!$&'()*+,;=% ]/) { |c| URI.encode_www_form_component(c) }
 end
 
 def replace_symbols(input)

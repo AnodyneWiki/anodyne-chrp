@@ -1,4 +1,4 @@
-require_relative 'reddit'
+require_relative '../lib/chrp/reddit'
 require 'json'
 
 # Mock record for testing
@@ -25,7 +25,8 @@ if reports && reports.length > 0
     puts "   Substances detected: #{report["substances"].join(', ')}"
   end
 else
-  puts "\nFAILED: No reports found. Check if reddit_test.json is in the current directory."
+  puts "\nFAILED: No reports found. Check if assets/reddit_test.json exists."
+  exit 1
 end
 
 puts "\n--- Test Complete ---"

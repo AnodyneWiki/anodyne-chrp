@@ -9,8 +9,8 @@ def build_index():
     sider_drugs = {}  # id (int) -> dict
     sider_name_to_id = {}  # lowercase name -> id
     
-    if os.path.exists("drug_names.tsv"):
-        with open("drug_names.tsv", "r", encoding="utf-8") as f:
+    if os.path.exists("assets/drug_names.tsv"):
+        with open("assets/drug_names.tsv", "r", encoding="utf-8") as f:
             for line in f:
                 parts = line.strip().split("\t")
                 if len(parts) == 2:
@@ -30,8 +30,8 @@ def build_index():
         return
 
     # 2. Load ATC codes from drug_atc.tsv
-    if os.path.exists("drug_atc.tsv"):
-        with open("drug_atc.tsv", "r", encoding="utf-8") as f:
+    if os.path.exists("assets/drug_atc.tsv"):
+        with open("assets/drug_atc.tsv", "r", encoding="utf-8") as f:
             for line in f:
                 parts = line.strip().split("\t")
                 if len(parts) == 2:
@@ -136,8 +136,8 @@ def build_index():
     # 4. Parse substance_index.txt
     psychoactive_list = []  # list of dicts: {"canonical": str, "aliases": list}
     
-    if os.path.exists("substance_index.txt"):
-        with open("substance_index.txt", "r", encoding="utf-8") as f:
+    if os.path.exists("assets/substance_index.txt"):
+        with open("assets/substance_index.txt", "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line or line.startswith("Substance Index"):
@@ -157,9 +157,9 @@ def build_index():
                     })
 
     # 5. Load erowid_substances.json
-    if os.path.exists("erowid_substances.json"):
+    if os.path.exists("assets/erowid_substances.json"):
         try:
-            with open("erowid_substances.json", "r", encoding="utf-8") as f:
+            with open("assets/erowid_substances.json", "r", encoding="utf-8") as f:
                 data = json.load(f)
                 for item in data:
                     name = item.get("name")
@@ -261,7 +261,7 @@ def build_index():
         "sider_drugs": sider_drugs_json
     }
     
-    with open("sider_index.json", "w", encoding="utf-8") as f:
+    with open("assets/sider_index.json", "w", encoding="utf-8") as f:
         json.dump(output_data, f, indent=2)
         
     print(f"Index built successfully! Matched {matched_count} psychoactive substances to SIDER.")

@@ -35,7 +35,7 @@ class SIDERScraper:
         self.slang_map = {}
         
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        index_path = os.path.join(script_dir, "sider_index.json")
+        index_path = os.path.join(script_dir, "..", "assets", "sider_index.json")
         if os.path.exists(index_path):
             try:
                 with open(index_path, "r", encoding="utf-8") as f:

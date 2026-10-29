@@ -8,7 +8,7 @@ require "nokogiri"
 require "uri"
 
 EROWID_BASE_URL = "https://www.erowid.org/experiences/"
-SUBSTANCES_FILE = "/usr/src/chrp/erowid_substances.json"
+SUBSTANCES_FILE = File.expand_path("../../assets/erowid_substances.json", __dir__)
 
 HEADERS = {
   "User-Agent" => "Mozilla/5.0",
@@ -141,7 +141,7 @@ def query_experiences(record)
       searches << abr
     end
   end
-  for abr in record["Aliases"]
+  for abr in Array(record["Aliases"])
     searches << abr
   end
   searches.uniq!

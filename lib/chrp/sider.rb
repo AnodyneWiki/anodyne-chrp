@@ -42,7 +42,7 @@ class SIDERScraper
     @psychoactive_names = []
     @slang_map = {}
 
-    index_path = File.join(File.dirname(__FILE__), 'sider_index.json')
+    index_path = File.expand_path('../../assets/sider_index.json', __dir__)
     unless File.exist?(index_path)
       warn "Warning: SIDER index file '#{index_path}' not found. Falling back to live resolution only."
       return

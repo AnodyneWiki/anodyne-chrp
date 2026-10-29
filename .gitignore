@@ -1,0 +1,10 @@
+vendor
+.bundle
+.devenv
+__pycache__
+result
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+.direnv
+.pre-commit-config.yaml

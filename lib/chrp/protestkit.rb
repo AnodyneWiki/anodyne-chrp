@@ -5,10 +5,8 @@ require 'time'
 require 'openssl'
 
 TIMEOUT = 45
-CHUNK_ID = "7085"
-PROTESTKIT_URL = "https://protestkit.us/drugspro/"
+PROTESTKIT_URL = "https://protestkit.eu/drugspro/"
 ASSET_MANIFEST_URL = PROTESTKIT_URL + "asset-manifest.json"
-TARGET_ROUTE_URL = PROTESTKIT_URL + "reagents/analyze"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36"
 
 def now_iso
@@ -99,46 +97,26 @@ def fetch_text(url)
   end
 end
 
-def discover_chunk_url
+# Chunk ids and variable names change with every deploy of the site, so the
+# analyzer chunk is found by its payload rather than by name.
+PAYLOAD_RE = /JSON\.parse\('(\{"Tj":(?:\\.|[^'])*)'\)/
+
+def discover_chunk
   manifest_res = fetch_text(ASSET_MANIFEST_URL)
-  if manifest_res[:ok]
-    begin
-      manifest = JSON.parse(manifest_res[:text])
-      manifest_text = manifest.to_json
-      if match = manifest_text.match(%r{/static/js/#{CHUNK_ID}\.[a-f0-9]+\.chunk\.js})
-        return PROTESTKIT_URL.chomp('/') + match[0]
-      end
-    rescue
-      # ignore
-    end
+  raise "Failed to fetch asset manifest: #{manifest_res[:status]} #{manifest_res[:url]}" unless manifest_res[:ok]
+
+  origin = PROTESTKIT_URL[%r{\Ahttps?://[^/]+}]
+  chunks = manifest_res[:text].scan(%r{"(/[^"]+\.chunk\.js)"}).flatten.uniq
+  chunks.each do |path|
+    chunk_res = fetch_text(origin + path)
+    return [origin + path, chunk_res[:text]] if chunk_res[:ok] && chunk_res[:text].match?(PAYLOAD_RE)
   end
 
-  route_res = fetch_text(TARGET_ROUTE_URL)
-  if route_res[:ok]
-    html = route_res[:text]
-    script_refs = html.scan(/<script[^>]+src="([^"]+)"/i).flatten
-
-    script_refs.each do |ref|
-      if ref.match(%r{/static/js/#{CHUNK_ID}\.[a-f0-9]+\.chunk\.js})
-        return ref.start_with?('http') ? ref : PROTESTKIT_URL.chomp('/') + ref
-      end
-    end
-
-    main_ref = script_refs.find { |ref| ref.include?('/static/js/main.') }
-    if main_ref
-      main_url = main_ref.start_with?('http') ? main_ref : PROTESTKIT_URL.chomp('/') + main_ref
-      main_res = fetch_text(main_url)
-      if main_res[:ok] && (m = main_res[:text].match(/#{CHUNK_ID}\.[a-f0-9]+\.chunk\.js/))
-        return PROTESTKIT_URL + "static/js/" + m[0]
-      end
-    end
-  end
-
-  raise "Could not discover current #{CHUNK_ID} analyzer chunk URL dynamically"
+  raise "Could not find the analyzer chunk among #{chunks.length} chunks"
 end
 
 def extract_embedded_json(chunk_text)
-  match = chunk_text.match(/const\s+r=JSON\.parse\('((?:\\.|[^'])*)'\)/)
+  match = chunk_text.match(PAYLOAD_RE)
   raise "Embedded analyzer JSON payload not found in chunk" unless match
 
   payload = match[1].gsub(/\\u([\da-fA-F]{4})/) { [$1.hex].pack('U') }
@@ -157,8 +135,7 @@ def build_output(master, chunk_url)
   output = {
     generated_at: now_iso,
     source: {
-      chunk_url: chunk_url,
-      chunk_id: CHUNK_ID
+      chunk_url: chunk_url
     },
     counts: {
       colors: colors.size,
@@ -216,16 +193,10 @@ def build_output(master, chunk_url)
 end
 
 def drugs_pro_scraper
-  chunk_url = discover_chunk_url
-  chunk_res = fetch_text(chunk_url)
-
-  unless chunk_res[:ok]
-    raise "Failed to fetch live analyzer chunk: #{chunk_res[:status]} #{chunk_res[:url]}"
+  $protestkit_data ||= begin
+    chunk_url, chunk_text = discover_chunk
+    build_output(extract_embedded_json(chunk_text), chunk_url)
   end
-
-  master = extract_embedded_json(chunk_res[:text])
-  output = build_output(master, chunk_url)
-  return output
 end
 
 

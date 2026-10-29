@@ -34,6 +34,15 @@ PHARM = [
   "Human Drugs", "Drug Indication", "Drug Classes", "Clinical Trials", "Therapeutic Uses", "Drug Warnings", "Reported Fatal Dose", "Pharmacodynamics", "MeSH Pharmacological Classification", "FDA Pharmacological Classification", "Pharmacological Classes", "ATC Code"
 ]
 
+# Sources that are known to go offline: skippable with --skip, and a failure
+# only costs that source's data.
+def merge_source(record, name)
+  return if skip?(name)
+  record.merge!(yield || {})
+rescue => e
+  puts "Skipping #{name}: #{e.message}"
+end
+
 def try(root, compound, prefixes, postfix, unii, key, indepth, salt)
   record = Hash.new
   record['UNII'] = unii if unii != nil
@@ -75,8 +84,8 @@ def try(root, compound, prefixes, postfix, unii, key, indepth, salt)
     record.merge!(query_mesh record)
     record.merge!(query_reddit record)
     record.merge!(query_experiences record)
-    record.merge!(query_protestkit record)
-    record.merge!(query_dbi_igs record)
+    merge_source(record, "protestkit") { query_protestkit record }
+    merge_source(record, "dbi-igs") { query_dbi_igs record }
   end
 
   mpca = ""
@@ -98,7 +107,7 @@ end
 
 def query(ssub, ltitle, dtitle, sstitle, rrtitle, srtitle, rstitle)
   return record if ssub["Title"] == nil
-  db = SQLite3::Database.new 'db.sqlite'
+  db = SQLite3::Database.new $options[:d]
   db.execute <<-SQL
     CREATE TABLE IF NOT EXISTS substances (
       id INTEGER PRIMARY KEY,
@@ -421,9 +430,34 @@ def query(ssub, ltitle, dtitle, sstitle, rrtitle, srtitle, rstitle)
   #File.write("substance/#{title.downcase.gsub(/\s+/, '_')}/vars.json", JSON.pretty_generate(record))
 end
 
+# The composite page shows structure/<title>.jpg when it exists. Unless a
+# picture was placed there by hand, take the lead image of the Wikipedia article.
+def fetch_composite_picture(ssub)
+  file = "structure/#{ssub["Title"].downcase}.jpg"
+  return if ssub["Wkp"] == nil || File.exist?(file)
+  headers = { "User-Agent" => "anodyne-chrp (https://anodyne.wiki)" }
+  article = URI.encode_www_form_component(ssub["Wkp"].gsub(" ", "_"))
+  summary = HTTParty.get("https://en.wikipedia.org/api/rest_v1/page/summary/#{article}", headers: headers)
+  url = JSON.parse(summary.body).dig("thumbnail", "source") if summary.code == 200
+  if url == nil
+    puts "No Wikipedia picture for #{ssub["Title"]}"
+    return
+  end
+  image = HTTParty.get(url, headers: headers)
+  if image.code != 200 || !image.headers["content-type"].to_s.start_with?("image/jpeg")
+    puts "Wikipedia picture for #{ssub["Title"]} is not a JPEG, skipped"
+    return
+  end
+  FileUtils.mkdir_p("structure")
+  File.binwrite(file, image.body)
+  puts "Fetched picture: #{file}"
+rescue => e
+  puts "Skipping picture for #{ssub["Title"]}: #{e.message}"
+end
+
 def query_composite(ssub)
   return record if ssub["Title"] == nil
-  db = SQLite3::Database.new 'db.sqlite'
+  db = SQLite3::Database.new $options[:d]
   db.execute <<-SQL
     CREATE TABLE IF NOT EXISTS composites (
       id INTEGER PRIMARY KEY,
@@ -463,6 +497,7 @@ def query_composite(ssub)
 
   #record.merge!(ssub)
   puts "Querying composite: #{record['Title']}"
+  fetch_composite_picture(ssub)
   dump_to_db_composite(db, record)
   return record
 end

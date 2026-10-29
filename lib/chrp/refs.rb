@@ -22,7 +22,7 @@ REFS = [
   { name: "EPA DSSTox", url: "https://comptox.epa.gov/dashboard/chemical/details/", key: "DSSTox Substance ID", icon: "https://comptox.epa.gov/dashboard/epa_logo.png", clean: true },
   { name: "Github", url: "https://github.com/", icon: "https://github.githubassets.com/favicons/favicon-dark.png", clean: false },
   { name: "Reddit", url: "https://www.reddit.com/", icon: "https://www.redditstatic.com/shreddit/assets/favicon/64x64.png", clean: false },
-  { name: "dbi-igs", url: "https://dbi-igs.org/", icon: "https://dbi-igs.org/favicon.ico", clean: true },
+  #{ name: "dbi-igs", url: "https://dbi-igs.org/", icon: "https://dbi-igs.org/favicon.ico", clean: true },
   #{ name: "ECHA Chem", url: "https://chem.echa.europa.eu/100.005.543", key: "UNII", clean: true },
 ]
 
