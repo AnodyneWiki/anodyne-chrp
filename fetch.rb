@@ -2,53 +2,84 @@ require 'digest'
 require 'httparty'
 require 'nokogiri'
 require 'json'
-require "erb"
+require 'erb'
 
 require_relative 'config'
 
+DEFAULT_TIMEOUT = 50
+DEFAULT_RETRIES = 3
+
+def perform_request(url, accept, cookies = nil)
+  HTTParty.get(
+    url.gsub(" ", "%20"),
+    timeout: DEFAULT_TIMEOUT,
+    headers: { "accept" => accept },
+    cookies: cookies
+  )
+end
+
 def fetch(url, accept, static = nil, cookies = nil)
-  if $options[:v]
-    puts "Fetch: " + url
-  end
+  puts "Fetch: #{url}" if $options[:v]
 
-  if $options[:c].nil?
-    response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept}, cookies: cookies)
-    if response.code != 200
-      return nil
+  cache_file = nil
+
+  if !$options[:c].nil?
+    cache_file = File.join(
+      $options[:c],
+      Digest::MD5.hexdigest(static || url)
+    )
+
+    if File.exist?(cache_file) &&
+       File.size(cache_file) > 0 &&
+       ((Time.now - File.mtime(cache_file)) / (24 * 60 * 60)) < 5.0
+
+      puts "Load Cache: #{url}" if $options[:v]
+      return File.read(cache_file)
     end
-    return response.body
   end
 
-  cff = $options[:c] + "/" + Digest::MD5.hexdigest(static != nil ? static : url)
-  if File.exist?(cff) && File.size(cff) > 0 && ((Time.now - File.mtime(cff)) / (24 * 60 * 60)) < 5.0
-    if $options[:v]
-      puts "Load Cache: " + url
+  attempts = 0
+
+  begin
+    attempts += 1
+
+    response = perform_request(url, accept, cookies)
+
+    return nil unless response.code == 200
+
+    if response.headers['x-throttling-control'] && $options[:v]
+      puts response.headers['x-throttling-control']
     end
-    return File.read(cff)
+
+    File.write(cache_file, response.body) if cache_file
+
+    response.body
+
+  rescue Net::ReadTimeout,
+         Net::OpenTimeout,
+         Errno::ECONNRESET,
+         SocketError,
+         HTTParty::Error => e
+
+    if attempts < DEFAULT_RETRIES
+      puts "Retry #{attempts}/#{DEFAULT_RETRIES}: #{e.class}" if $options[:v]
+      sleep(attempts)
+      retry
+    end
+
+    puts "Failed: #{url} (#{e.class})" if $options[:v]
+    nil
   end
-
-  response = HTTParty.get(url.gsub(" ", "%20"), timeout: 50, headers: { "accept" => accept} )
-
-  if response.code != 200
-    return nil
-  end
-
-  puts response.headers['x-throttling-control']
-
-  File.write(cff, response.body)
-  return response.body
 end
 
 def fetch_html(url)
-  return Nokogiri::HTML(fetch(url, "text/html")) do |config|
+  Nokogiri::HTML(fetch(url, "text/html")) do |config|
     config.strict.noblanks
   end
 end
+
 def fetch_xml(url)
-  return Nokogiri::XML(fetch(url, "application/xml")) do |config|
+  Nokogiri::XML(fetch(url, "application/xml")) do |config|
     config.strict.noblanks
   end
 end
-#def fetch_json(url)
-#  return JSON.parse(fetch(url, "application/json"))
-#end
